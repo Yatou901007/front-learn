@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../lib/jquery.min.js"></script>
+
+    <style type="text/css">
+      div {
+        width: 400px;
+        height: 100px;
+        margin: 20px auto;
+        padding: 30px;
+        border : 15px solid yellow;
+        background-color: pink;
+        color: #fff;
+      }
+      .normal {
+        box-sizing: content-box;
+      }
+      .border {
+        box-sizing: border-box;
+      }
+      .padding {
+        box-sizing: padding-box;/*只在firefox下好用*/
+      }
+      .col-5 {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="normal">
+      box-sizing: content-box
+    </div>
+    <div class="border">
+      box-sizing: border-box
+    </div>
+    <div class="padding">
+      box-sizing: padding-box (只在firefox下好用)
+    </div>
+    <div class="col-5">
+      为什么要用box-sizing属性？占据50%，换成content试试
+    </div>
+    <div class="col-5">
+      为什么要用box-sizing属性？占据50%，换成content试试
+    </div>
+    <script type="text/javascript">
+      console.log($('.normal').width())
+    </script>
+</body>
+</html>

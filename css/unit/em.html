@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+      body {font-size: 12px;}
+      div  {font-size: 1.5em;}
+    </style>
+</head>
+<body>
+    因为font-size具有继承性，所以层数越深字体越大,em会继承父级元素的字体大小
+    <div>
+        Test-01 (12px * 1.5 = 18px)
+        <div>
+            Test-02 (18px * 1.5 = 27px)
+            <div>
+                Test-03 (27px * 1.5 = 41px)
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>为什么不能举案齐眉？inline-block和baseline</title>
+
+    <style type="text/css">
+        .dib-baseline {
+          display: inline-block; 
+          width: 150px; 
+          height: 150px;
+          border: 1px solid #cad5eb; 
+          background-color: #f0f3f9;
+        }
+        .justify-fix { 
+            display: inline-block; 
+            width: 128px; 
+        }
+    </style>
+</head>
+<body>
+    <span class="dib-baseline"></span>
+    <span class="dib-baseline">x-baseline</span>
+    <div style="text-align: justify; width:400px; background-color: #f0f3f9;">
+        <img src="../image/1.png" width="128">
+        <img src="../image/1.png" width="128">
+        <img src="../image/1.png" width="128">
+        <img src="../image/1.png" width="128">
+        <i class="justify-fix"></i>
+        <i class="justify-fix"></i>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>为什么vertical-align不起作用？</title>
+
+    <style type="text/css">
+        .father {
+            font-size: 16px;
+        }
+        .child {
+            font-size: 30px;
+            vertical-align: middle;
+            /*display: inline-block;*/
+            /*vertical-align: -10%;*/
+            /*vertical-align: -3px;*/
+        }
+        .normal {
+            line-height: normal;
+        }
+        .number {
+            line-height: 1.2;
+        }
+        .percent {
+            line-height: 120%;
+        }
+        .length {
+            line-height: 24px; /* px em等*/
+        }
+    </style>
+</head>
+<body>
+    <div class="father normal">
+        父元素内容
+        <div class="child">
+             Web前端开发<br />
+            line-height行高问题
+        </div>
+    </div>
+</body>
+</html>

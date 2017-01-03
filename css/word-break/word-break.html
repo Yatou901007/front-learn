@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>word-wrap属性用来标明是否允许浏览器在单词内进行断句</title>
+
+    <style type="text/css">
+        .text {
+            width: 300px;
+            height: 100px;
+            background: #ddd;
+            color: red;
+            /*word-wrap: break-word;*/
+            /*word-break: break-all;*/
+        }
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    word-wrap属性用来标明是否允许浏览器在单词内进行断句，这是为了防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。<br><br>
+    word-break属性用来标明怎么样进行单词内的断句。<br><br>
+    word-wrap:break-word与word-break:break-all共同点是都能把长单词强行断句，不同点是word-wrap:break-word会首先起一个新行来放置长单词，新的行还是放不下这个长单词则会对长单词进行强制断句；而word-break:break-all则不会把长单词放在一个新行里，当这一行放不下的时候就直接强制断句了。<br><br>
+    white-space: nowrap表示文本不会换行，文本会在在同一行上继续。<br><br>
+    text-overflow:ellipsis; 不可独立使用必须结合overflow:hidden;  white-space:nowrap;才生效。<br><br>
+    <div class="text">
+        this is a longgggggggggggggggggggggggggggggggggggggggggggggggggggg word.
+    </div>
+    <div class="text ellipsis" style="margin-top:10px;">
+        this is a longgggggggggggggggggggggggggggggggggggggggggggggggggggg word.
+    </div>
+</body>
+</html>

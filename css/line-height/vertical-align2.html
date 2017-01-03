@@ -6,25 +6,26 @@
 
     <style type="text/css">
         .box {
-            background: black; 
-            color: white; 
-            padding-left: 20px;
-            /*line-height: 24px;*/
+            background-color:#e5edff;
+            /*方法二*/
+            /*下面的空隙高度，实际上是文字计算后的行高值和字母x下边缘的距离。因此，只要行高足够小，实际文字占据的高度的底部就会在x的上面，下面没有了高度区域支撑，自然，图片就会有容器底边贴合在一起了*/
+            /*line-height: 10px;*/
+            /*方法四*/
+            /*font-size: 0;*/
         }
-        .dot {
-            display: inline-block; 
-            width: 4px; 
-            height: 4px; 
-            background: red;
-            vertical-align: bottom; /*相对于父标签的底部对齐*/
-            /*vertical-align: text-bottom; /*相对于父标签的文字底部对齐*/*/
+        .box img {
+            /*方法一*/
+            /*vertical-align: bottom;*/
+            /*方法三*/
+            /*display: block;*/
         }
     </style>
 </head>
 <body>
-    <div style="background-color:#e5edff;">
+    <div class="box">
         <img src="../image/1.png">
-        <span style="background-color:red;">zxy</span>
+        <!-- 加个文字试试 -->
+        <!-- <span style="background-color:red;">zxy</span> -->
     </div>
 </body>
 </html>

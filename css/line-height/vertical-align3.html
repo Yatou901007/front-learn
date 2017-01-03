@@ -11,23 +11,14 @@
           height: 150px;
           border: 1px solid #cad5eb; 
           background-color: #f0f3f9;
-        }
-        .justify-fix { 
-            display: inline-block; 
-            width: 128px; 
+          /*line-height: 0;*/
+          /*vertical-align: bottom;*/
         }
     </style>
 </head>
 <body>
+    <div>基线是同级块之间相互对齐的基准位置——元素应该根据基线位置来调整自身的位置</div>
     <span class="dib-baseline"></span>
     <span class="dib-baseline">x-baseline</span>
-    <div style="text-align: justify; width:400px; background-color: #f0f3f9;">
-        <img src="../image/1.png" width="128">
-        <img src="../image/1.png" width="128">
-        <img src="../image/1.png" width="128">
-        <img src="../image/1.png" width="128">
-        <i class="justify-fix"></i>
-        <i class="justify-fix"></i>
-    </div>
 </body>
 </html>

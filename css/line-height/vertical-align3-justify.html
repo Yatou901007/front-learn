@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>两端对齐的最后一行？原理：不让浏览器认为是最后一行</title>
+
+    <style type="text/css">
+        ul {
+            text-align: justify; 
+            width:600px; 
+            background-color: #f0f3f9;
+            padding: 0;
+            /*4*/
+            line-height: 0;
+        }
+        li {
+            display: inline-block;
+            width: 128px;
+            /*5*/
+            /*vertical-align: bottom;*/
+        }
+        li img {
+            width: 100%;
+            vertical-align: bottom;
+        }
+        .justify-fix { 
+            display: inline-block; 
+            width: 100%;
+            height: 0;
+        }
+        .left-fix {
+            display: inline-block;
+            outline: red 1px dashed;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <li><img src="../image/1.png"></li>
+        <!-- 1 最后一行两端对齐 -->
+        <!-- <li class="justify-fix"></li> -->
+        <!-- 2 最后一行左对齐 -->
+        <li class="left-fix"></li>
+        <li class="left-fix"></li>
+        <!-- 3 加个文字试试 -->
+        <!-- <li class="left-fix">x-baseinline</li>
+        <li class="left-fix">x-baseinline</li> -->
+    </div>
+</body>
+</html>

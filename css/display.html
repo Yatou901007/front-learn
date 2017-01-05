@@ -56,7 +56,7 @@
       inline-block的元素特点：<br />将对象呈递为内联对象，但是对象的内容作为块对象呈递。旁边的内联对象会被呈递在同一行内，允许空格。(准确地说，应用此特性的元素呈现为内联对象，周围元素保持在同一行，但可以设置宽度和高度地块元素的属性)
     </div>
     <div class="inline-block">
-      inline-block 默认底部对齐，修改时加入vertial-align : top属性
+      inline-block 默认基线对齐，修改时加入vertial-align : top属性
     </div>
     <div>
       并不是所有浏览器都支持此属性，目前支持的浏览器有：Opera、Safari在IE中对内联元素使用display:inline-block，IE是不识别的，但使用display:inline-block在IE下会触发layout，从而使内联元素拥有了display:inline-block属性的表症。从上面的这个分析，也不难理解为什么IE下，对块元素设置display:inline-block属性无法实现inline-block的效果。这时块元素仅仅是被display:inline-block触发了layout，而它本就是行布局，所以触发后，块元素依然还是行布局，而不会如Opera中块元素呈递为内联对象。<br />
@@ -72,9 +72,6 @@
   　　2、直接让块元素设置为内联对象呈递（设置属性display:inline），然后触发块元素的layout（如：zoom:1等）。代码如下：
 
   　　div {display:inline; zoom:1;...}
-      <div class="list-item">1</div>
-      <div class="list-item">2</div>
-      <div class="list-item">3</div>
   </div>
 </body>
 </html>

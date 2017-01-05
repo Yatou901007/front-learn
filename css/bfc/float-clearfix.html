@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动的两种方式之——clear属性方式</title>
+
+    <style type="text/css">
+        .container{
+            margin: 30px auto;
+            width:600px;
+            height: 300px;
+        }
+        .p{
+            border:solid 3px #a33;
+        }
+        .c{
+            width: 100px;
+            height: 100px;
+            background-color: #060;
+            margin: 10px;
+            float: left;
+        }
+        .clearfix:after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 方法1 2 clear -->
+        <div class="p clearfix">
+            <div class="c"></div>
+            <div class="c"></div>
+            <div class="c"></div>
+            <!-- <div style="clear:left;"></div> -->
+        </div>
+    </div>
+</body>
+</html>

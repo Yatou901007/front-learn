@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动的两种方式之——形成bfc方式</title>
+
+    <style type="text/css">
+        .container{
+            margin: 30px auto;
+            width:600px;
+            height: 300px;
+        }
+        .p{
+            border:solid 3px #a33;
+        }
+        .c{
+            width: 100px;
+            height: 100px;
+            background-color: #060;
+            margin: 10px;
+            float: left;
+        }
+        .newBFC {
+            overflow: hidden;
+            display: inline-block; 
+            float: left;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- bfc特性6：计算BFC的高度时，浮动元素也参与计算 -->
+        <div class="p newBFC">
+            <div class="c"></div>
+            <div class="c"></div>
+            <div class="c"></div>
+        </div>
+    </div>
+</body>
+</html>

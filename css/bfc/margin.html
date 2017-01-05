@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>bfc特性-margin重叠</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+        .margin20 {
+            margin: 20px 0;
+            width: 100px;
+            height: 100px;
+            background: pink;
+            border: 1px solid #000;
+        }
+        .father {
+            width: 200px;
+            height: 200px;
+            background: pink;
+            margin: 20px 0;
+        }
+        .child {
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            margin: 20px 0;
+        }
+        .newBFC {
+            overflow: hidden;
+            display: inline-block; 
+            float: left;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <!-- 对于相邻元素 -->
+    <div class="margin20"></div>
+    <div class="margin20"></div>
+    <!-- 对于嵌套元素 -->
+    <div class="father">
+        <div class="child"></div>
+    </div>
+    <!-- 解决margin重叠，只需不在同一个bfc中 -->
+</body>
+</html>

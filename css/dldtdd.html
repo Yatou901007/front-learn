@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+    </script>
+    <style type="text/css">
+      .block {
+        display: block;
+        width: 400px;
+        height: 120px;
+        line-height: 20px;
+        margin: 20px;
+        background-color: pink;
+        color: #fff;
+      }
+      .inline {
+        display: inline;
+        width: 400px; /* 无效 */
+        height: 120px; /* 无效 */
+        line-height: 20px; /* 无效 */
+        margin: 20px; /* margin-left/right 无效 */
+        background-color: red;
+        color: #fff;
+      }
+      .inline-block {
+        display: inline-block;
+        width: 400px; /* 无效 */
+        height: 120px; /* 无效 */
+        line-height: 20px; /* 无效 */
+        margin: 20px; /* margin-left/right 无效 */
+        background-color: orange;
+        color: #fff;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        vertical-align: top;
+      }
+      .list-item {
+        display: list-item;
+        list-style-type: circle;
+        margin-left: 30px;
+      }
+
+    </style>
+</head>
+<body>
+    <h2>一个定义列表：</h2>
+    <dl>
+       <dt>计算机（相当于标题）</dt>
+       <dd>用来计算的仪器 ... ...（相当于标题下的小分类）</dd>
+       <dd>用来计算的仪器 ... ...（相当于标题下的小分类）</dd>
+       <dt>显示器</dt>
+       <dd>以视觉方式显示信息的装置 ... ...</dd>
+    </dl>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+</body>
+</html>

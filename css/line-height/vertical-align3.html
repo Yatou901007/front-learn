@@ -2,23 +2,30 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>为什么不能举案齐眉？inline-block和baseline</title>
+    <title>图片下方为什么会多出空隙？探究vertical-align和line-height的关系</title>
 
     <style type="text/css">
-        .dib-baseline {
-          display: inline-block; 
-          width: 150px; 
-          height: 150px;
-          border: 1px solid #cad5eb; 
-          background-color: #f0f3f9;
-          /*line-height: 0;*/
-          /*vertical-align: bottom;*/
+        .box {
+            background-color:#e5edff;
+            /*方法二*/
+            /*下面的空隙高度，实际上是文字计算后的行高值和字母x下边缘的距离。因此，只要行高足够小，实际文字占据的高度的底部就会在x的上面，下面没有了高度区域支撑，自然，图片就会有容器底边贴合在一起了*/
+            /*line-height: 10px;*/
+            /*方法四*/
+            /*font-size: 0;*/
+        }
+        .box img {
+            /*方法一*/
+            /*vertical-align: bottom;*/
+            /*方法三*/
+            /*display: block;*/
         }
     </style>
 </head>
 <body>
-    <div>基线是同级块之间相互对齐的基准位置——元素应该根据基线位置来调整自身的位置</div>
-    <span class="dib-baseline"></span>
-    <span class="dib-baseline">x-baseline</span>
+    <div class="box">
+        <img src="../image/1.png">
+        <!-- 加个文字试试 -->
+        <!-- <span style="background-color:red;">zxy</span> -->
+    </div>
 </body>
 </html>

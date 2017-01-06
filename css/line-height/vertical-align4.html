@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>为什么不能举案齐眉？inline-block和baseline</title>
+
+    <style type="text/css">
+        .dib-baseline {
+          display: inline-block; 
+          width: 150px; 
+          height: 150px;
+          border: 1px solid #cad5eb; 
+          background-color: #f0f3f9;
+          /*line-height: 0;*/
+          /*vertical-align: bottom;*/
+        }
+    </style>
+</head>
+<body>
+    <div>基线是同级块之间相互对齐的基准位置——元素应该根据基线位置来调整自身的位置</div>
+    <span class="dib-baseline"></span>
+    <span class="dib-baseline">x-baseline</span>
+</body>
+</html>

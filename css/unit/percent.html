@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+    body {
+        width: 600px;
+    }
+    div {
+        width: 50%; 
+        background: pink;
+    }
+    div.absolute { 
+        position: absolute;
+        background: yellow;
+        left: 0;
+        top: 0;
+    }
+    div.fixed { 
+        position: fixed; 
+        background: #edc; 
+        left: 0; 
+        top: 0; 
+    }
+    </style>
+</head>
+<body>
+    对于static、relative定位元素，百分比就是相对于父元素
+    <div style="background:red;">
+        <!-- 普通定位元素 (600 * 50% = 300px) -->
+        static(300px)
+        <div style="background:green;position:relative;">
+            <!-- relative定位元素 (300 * 50% = 150px) -->
+            relative(150px)
+            <!-- absolute定位元素 (150 * 50% = 75px)是相对于已定位的父元素（把父级修改为relative） -->
+            <!-- <div class="absolute">
+                absolute
+            </div> -->
+        </div>
+    </div>
+    <!-- fixed定位元素 (当前窗口大小 * 50%)是相对于可视窗口浏览器window -->
+    <!-- <div class="fixed">
+        fixed
+    </div> -->
+</body>
+</html>

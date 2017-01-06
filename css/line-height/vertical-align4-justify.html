@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>两端对齐的最后一行？原理：不让浏览器认为是最后一行</title>
+    <title>两端对齐的最后一行空白？</title>
 
     <style type="text/css">
         ul {
@@ -11,7 +11,7 @@
             background-color: #f0f3f9;
             padding: 0;
             /*4*/
-            line-height: 0;
+            /*line-height: 0;*/
         }
         li {
             display: inline-block;
@@ -46,11 +46,11 @@
         <!-- 1 最后一行两端对齐 -->
         <!-- <li class="justify-fix"></li> -->
         <!-- 2 最后一行左对齐 -->
-        <li class="left-fix"></li>
-        <li class="left-fix"></li>
+        <!-- <li class="left-fix"></li>
+        <li class="left-fix"></li> -->
         <!-- 3 加个文字试试 -->
-        <!-- <li class="left-fix">x-baseinline</li>
-        <li class="left-fix">x-baseinline</li> -->
+        <li class="left-fix">x-baseinline</li>
+        <li class="left-fix">x-baseinline</li>
     </div>
 </body>
 </html>

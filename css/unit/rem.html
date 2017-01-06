@@ -10,13 +10,13 @@
     </style>
 </head>
 <body>
-    因为font-size具有继承性，所以层数越深字体越大,em会继承父级元素的字体大小
+    rem基于根元素计算font-size
     <div>
         Test-01 (12px * 1.5 = 18px)
         <div>
             Test-02 (12px * 1.5 = 18px)
             <div>
-                Test-03 (22px * 1.5 = 18px)
+                Test-03 (12px * 1.5 = 18px)
             </div>
         </div>
     </div>

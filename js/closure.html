@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h2>初始闭包：坑</h2>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <script type="text/javascript">
+        // 坑
+        // var li = document.getElementsByTagName('li');
+        // for (var i = 0; i < li.length; i++) {
+        //   li[i].onclick = function(){
+        //     alert(i);
+        //   }
+        // };
+
+        // 保存i值
+        // var li = document.getElementsByTagName('li');
+        // for (var i = 0; i < li.length; i++) {
+        //   li[i].number = i;
+        //   li[i].onclick = function(){
+        //     alert(this.number);
+        //   }
+        // };
+
+        // 加一层闭包 将i值以参数形式传递给内层函数
+        var li = document.getElementsByTagName('li');
+        for (var i = 0; i < li.length; i++) {
+          (function(m){
+            li[i].onclick = function(){
+              alert(m);
+            }
+          })(i);
+        };
+    </script>
+</body>
+</html>

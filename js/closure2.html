@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h2>典型闭包结构</h2>
+    <script type="text/javascript">
+        var a = function(){
+            var i = 0;
+            var b = function(){
+                return i++;
+            }
+            return b;
+        }
+        var c = a();
+        console.log(c());
+        console.log(c());
+        console.log(c());
+    </script>
+</body>
+</html>

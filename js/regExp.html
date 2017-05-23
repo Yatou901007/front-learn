@@ -1,0 +1,44 @@
+<meta charset="utf-8"/>
+<script type="text/javascript">
+	/*知识点1：正则表达式定义*/
+	var patt1 = new RegExp('hello');
+	var patt2 = /world/;
+
+	/*知识点2：正则表达式使用的两个方法：text() exec()*/
+	var pat = /my/;
+	var str = 'my code is ...';
+	console.log(pat.test(str));// true，返回是否存在的布尔值
+	console.log(pat.exec(str));// ["my", index: 0, input: "my code is ..."]，返回存在的值的下标，没有返回null
+
+	/*知识点3： /partern/attributes , attributes可选字符串，常用属性g i ，g 全局匹配 i 忽略大小写的匹配 */
+	var str = "visit user";
+	var patt1 = /User/i;
+	console.log(str.match(patt1));// ["user", index: 6, input: "visit user"]
+
+	var str = "hello xiaoming, i am admin, Xiaoming say hello";
+	var patt1 = /xiaoming/ig;
+	console.log(str.match(patt1));// ["xiaoming", "Xiaoming"]
+
+	/*知识点4：search */
+	var str = 'visit user';
+	console.log(str.search(/User/)); // -1
+	console.log(str.search(/User/i)); // 6
+
+	/*知识点5：match匹配所有数字 */
+	var str = '1visit 2user 3';
+	console.log(str.match(/\d+/)); // ["1", index: 0, input: "1visit 2user 3"]
+	console.log(str.match(/\d+/g)); // ["1", "2", "3"]
+
+	/*知识点6：replace字符串替换 会生成副本，不改变原值 */
+	var str = 'hello jeck, jeck';
+	console.log(str.replace(/jeck/, 'mac'), '---', str); // hello mac, jeck --- hello jeck, jeck
+	console.log(str.replace(/jeck/g, 'mac'), '---', str); // hello mac, mac --- hello jeck, jeck
+
+	/*知识点7：split 空值== s+ */
+	var str = 'hello jeck jeck';
+	console.log(str.split(' ')); // ["hello", "jeck", "jeck"]
+	console.log(str.split(/\s+/)); // ["hello", "jeck", "jeck"]
+
+
+
+</script>

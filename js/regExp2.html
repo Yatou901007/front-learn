@@ -1,0 +1,65 @@
+<meta charset="utf-8"/>
+<script type="text/javascript">
+	/*知识点1： 查找方括号[]之间的任何字符 */
+	var str = "Is this all there is?";
+	var patt1 = /[a-h]/g;
+	console.log(str.match(patt1));// ["h", "a", "h", "e", "e"]
+
+	/*知识点2： 查找不在方括号[]之间的字符 */
+	var str = "hello xm";
+	var patt1 = /[^xm]/g;
+	console.log(str.match(patt1));// ["h", "e", "l", "l", "o", " "]
+
+	/*
+		[0-9] 查找任何从0-9的数字
+		[a-z] 查找任何从小写a-z的字符
+		[A-Z] 查找任何从大写A-Z的字符
+		[A-z] 查找任何从大写A-小写z的字符
+		[adgk] 查找给定集合的任何字符
+		[^adgk] 查找给定集合外的任何字符
+		[0-9] 查找任何从0-9的数字
+		[0-9] 查找任何从0-9的数字
+		red|blue|green 查找任何指定的选项（或者）
+		. 查找单个字符，除了换行和行结束符（联合）
+		\w 查找单词字符（字母、数字、下划线）
+		\W 查找非单词字符（字母、数字、下划线）
+		\d 查找数字
+		\D 查找非数字
+		\s 查找空白字符（空格、tab、换行、回车）
+		\S 查找非空白字符（空格、tab、换行、回车）
+		\b 匹配单词边界
+		\B 匹配非单词边界
+		\n 查找换行符
+		n+ 匹配任何包含至少一个n的字符串
+		n* 匹配任何包含0个或多个n的字符串
+		n? 匹配任何包含0个或1个n的字符串
+		n{X} 匹配包含X个n的序列的字符串
+		n{X,Y} 匹配包含X或Y个n的序列的字符串
+		n{X,} 匹配包含至少X个n的序列的字符串
+		n$ 匹配任何结尾为n的字符串
+		^n 匹配任何开头为n的字符串
+	*/
+
+	/*知识点3： red|blue|green 或者 */
+	var str = "hello xiaoming you ok!";
+	var patt1 = /hello|you/g;
+	console.log(str.match(patt1));// ["hello", "you"]
+
+	/*知识点4： . 联合 */
+	var str = "That's hot!";
+	var patt1 = /h.t/g;
+	console.log(str.match(patt1));// ["hat", "hot"]
+
+	/*知识点5： \w 匹配单词、字母、下划线 */
+	var str = "Give 100%";
+	var patt1 = /\w/g;
+	console.log(str.match(patt1));// ["G", "i", "v", "e", "1", "0", "0"]
+
+	/*知识点6： \b 匹配单词边界 */
+	var str = "hello xiaoming";
+	var patt1 = /\bxiaoming/g;
+	console.log(str.match(patt1));// ["xiaoming"]
+
+
+
+</script>

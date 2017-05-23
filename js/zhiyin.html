@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h2>值类型和引用类型</h2>
+    <script type="text/javascript">
+    	/* 例1 值类型 */
+        function test(num) {
+        	// 这里对num这个变量创建了一个内存的副本
+			num = num + 1;
+			return num;
+		}
+		var num = 1;
+		alert(test(num)); // 2
+		alert(num);// 1
+
+
+		/* 例2 引用类型 */
+		// function test(obj) {
+  //       	// 当前的obj对内存的这个地址指向同一个
+		// 	obj.age = '20';
+		// 	console.log('inner', obj);
+		// }
+		// var obj = {
+		// 	name: "xiaoming"
+		// };
+		// test(obj);
+		// console.log('out', obj);
+
+		
+		// 按引用传递：object array
+		// 按值传递：string number boolean
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h2>作用域</h2>
+    <script type="text/javascript">
+    	/* 例1 */
+        function test() {
+			if (false) {
+				var i = 10;
+		}
+		console.log(i);//undefined
+		console.log(j);// Uncaught ReferenceError: j is not defined
+		}
+		test();
+
+
+		/* 例2  外部不能访问内部变量 */
+		// function test() {
+		// 	if (false) {
+		// 		var i = 10;
+		// 	} else {
+		// 		var t = 100;
+		// 	}
+		// 	console.log(t);//100
+		// }
+		// test();
+		// console.log(t);// Uncaught ReferenceError: t is not defined
+
+		/* 例3 定义前置 */
+		// test();// undefined
+		// var j = 1000;
+		// function test(){
+		// 	console.log(j)
+		// }
+
+		/* 例4 波浪线 */
+		// var j = 1000;
+		// ~function test() {
+		// 	console.log(j)
+		// }(); // 也能执行，去掉波浪线就会报错，
+
+
+		/* 例子5 定义前置，在函数中也同样道理 */
+		// var j = 1000;
+		// (function test() {
+		// 	console.log(j)
+		// 	var j;
+		// })(); 
+
+
+    </script>
+</body>
+</html>

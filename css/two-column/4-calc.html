@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head lang="en">  
+    <meta charset="UTF-8">  
+    <title>两栏布局-实现4-calc</title>  
+    <style>  
+        body{  
+            margin:0; 
+            width: 100vw;
+            font-size: 0;
+            /*去除inline-block间隙，参考地址：http://www.zhangxinxu.com/wordpress/2012/04/inline-block-space-remove-%E5%8E%BB%E9%99%A4%E9%97%B4%E8%B7%9D/*/
+        }  
+        .left {
+            width: 200px;
+            background: red;
+            display: inline-block;
+            height: 100vh;
+            font-size: 16px;
+        } 
+        .right {
+            background: blue;
+            display: inline-block;
+            width: calc(100vw - 200px);
+            height: 100vh;
+            font-size: 16px;
+        }
+    </style>  
+</head>  
+<body>  
+<div class="left">111</div>
+<div class="right">222</div>
+</body>  
+</html> 

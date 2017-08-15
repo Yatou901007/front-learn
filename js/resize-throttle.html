@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>onresize 节流优化</title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <h2>打开控制台，改变浏览器大小</h2>
+    <div>函数节流原理：用定时器，当触发一个事件时，先setTimout让这个事件延迟一会再执行，如果在这个时间间隔内又触发了事件，那我们就clear掉原来的定时器，再setTimeout一个新的定时器延迟一会执行。</div>
+    <script type="text/javascript">
+        function aa(){  
+            console.log(1);  
+        };  
+        function bb(){  
+            console.log(2)
+        } 
+        bb.cc = function(){  
+            console.log(3)
+        }  
+        function throttle(method,context){  
+            clearTimeout(method.tid);  
+            method.tid = setTimeout(function(){  
+                method.call(context);  
+            },100);  
+        };  
+        $(window).resize(function() { // jquery
+        // window.onresize = function(){  // 原生
+            aa();  
+            throttle(bb.cc, bb);  // bb函数是window对象中的方法，想执行的函数在哪个对象里面，就传什么
+        // };  
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html>  
+<head lang="en">  
+    <meta charset="UTF-8">  
+    <title>两栏布局-实现2-bfc</title>  
+    <style>  
+        body{  
+            margin:0;  
+        }  
+        .left {
+            width: 200px;
+            float: left;
+            background: red;
+        } 
+        .right {
+            overflow: hidden;
+            background: blue;
+        }
+    </style>  
+</head>  
+<body>  
+<!-- BFC 规则有这样的描述：BFC 区域，不会与浮动元素重叠 -->
+<div class="left">111</div>
+<div class="right">222</div>
+</body>  
+</html> 

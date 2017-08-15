@@ -13,10 +13,10 @@
 </head>
 <body>
     任意浏览器的默认字体高都是16px。所有未经调整的浏览器都符合: 1em=16px;<br>
-    为了简化计算，设置body字体大小为62.5%，即62.5%*16px = 10px = 1em;<br>
+    为了简化计算，设置body或者html元素字体大小为62.5%，即62.5%*16px = 10px = 1em;<br>
     so...利于整数计算 12px = 1.2em...
     <div class="div1">Test-01 (10px)</div>
-    <div class="div2">Test-01 (14px)</div>
+    <div class="div2">Test-01 (14px)<div class="div2">inner(14*1.4=19.6px)</div></div>
     <div class="div3">Test-01 (16px)</div>
 </body>
 </html>

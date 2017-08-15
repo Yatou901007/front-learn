@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>拖拽</title>
+		<style>
+			.box{ float: left; width: 100px; height: 100px; padding: 10px; border: 1px solid #CCC;}
+                        .box2{ float: left; width: 100px; height: 100px; padding: 10px; border: 1px solid #FF0000;}
+		</style>
+	</head>
+	<body class="aaa">
+		<div id="box" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img class="low" id="img" draggable="true" ondragstart="drag(event)" src="http://cdn.attach.w3cfuns.com/notes/pics/201605/12/170636mgx6nbns6jbtobot.jpg" alt="1" width="100" height="100" />
+		</div>
+		<div id="box2" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img class="low" id="img2" draggable="true" ondragstart="drag(event)" src="http://cdn.attach.w3cfuns.com/notes/pics/201605/12/170636idjre7ehihsj5lrj.jpg" alt="2" width="100" height="100" />
+		</div>
+		<div id="box2" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img class="low" id="img3" draggable="true" ondragstart="drag(event)" src="http://cdn.attach.w3cfuns.com/notes/pics/201605/12/170636strjoyo8yjorb0tk.jpg" alt="3" width="100" height="100" />
+		</div>
+		<div id="box2" class="box" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img class="low" id="img4" draggable="true" ondragstart="drag(event)" src="http://cdn.attach.w3cfuns.com/notes/pics/201605/12/170636cdmzomu8sydpp0st.jpg" alt="4" width="100" height="100" />
+		</div>
+                <div id="box3" class="box2" ondrop="drop2(event)" ondragover="allowDrop(event)"></div>
+                <div>tip:可自由拖拽图片更改位置，拖动至红框删除</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+	function allowDrop(ev)
+{ 
+ev.preventDefault();	
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+	var data=ev.dataTransfer.getData("Text");
+	var thtml = $(ev.target).html();
+	var dparent = $("#"+data).parent();
+	if($(ev.target).closest("img").length==0){
+		dparent.append(thtml);
+		$(ev.target).html("");
+		$(ev.target).append($("#"+data));
+	}else if($(ev.target).closest("img").length>0){	
+		var tparent = $(ev.target).parent();
+		var etarget = $(ev.target).clone();
+		dparent.append(etarget);
+		$(ev.target).remove();
+		tparent.append($("#"+data));
+	}
+	var dparent = null;
+}
+function drop2(ev){
+		drop(ev);
+		var data=ev.dataTransfer.getData("Text");
+		$("#"+data).remove()
+		
+	}
+	</script>
+</html>

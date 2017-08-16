@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>弹出框中使用取消冒泡</title>
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <style type="text/css">
+    	td[data-pop] {
+    		position: relative;
+    	}
+    	.pop {
+			position: absolute;
+			left: calc(100% + 10px);
+  			top: -10px;
+			background: #eee;
+			border: 1px solid #999;
+			border-radius: 6px;
+			z-index: 10;
+			min-width: 200px;
+    	}
+    	.pop .title {
+    		border-bottom: 1px solid #ccc;
+    		padding: 10px;
+    		font-size: 20px;
+    		font-weight: bold;
+    	}
+    	.pop .content {
+    		padding: 10px;
+    	}
+    </style>
+</head>
+<body>
+    <table>
+    	<thead>
+    		<tr>
+	    		<th>序号</th>
+	    		<th>操作</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+	    		<td>1</td>
+	    		<td data-pop="pop">点击弹出框</td>
+    		</tr>
+    		<tr>
+	    		<td>2</td>
+	    		<td data-pop="pop">点击弹出框</td>
+    		</tr>
+    		<tr>
+	    		<td>3</td>
+	    		<td data-pop="pop">点击弹出框</td>
+    		</tr>
+    	</tbody>
+    </table>
+    <script type="text/javascript">
+    	$('body').on('click', function(e) {
+    		var target = $(e.target);
+    		if (target.data('pop') == 'pop') {
+    			// 把其他的关闭
+    			$('tbody td div.pop').remove(); 
+    			// 添加新的
+    			var popDiv = $('<div class="pop" ></div>');
+    			var title = $('<div class="title">hello</div>');
+    			var content = $('<div class="content">这是一段文字，<button>点击一下并不会关闭</button></div>');
+    			popDiv.append(title).append(content);
+    			target.append(popDiv);
+    			return false;
+    			// e.stopPropagation(); // 阻止冒泡
+    		}
+    		if (target.parents('.pop').length > 0){
+    			return false;
+    			// e.stopPropagation(); // 阻止弹出框子元素冒泡
+    		}
+    		$('tbody td div.pop') && $('tbody td div.pop').remove(); 
+    	});
+    </script>
+</body>
+</html>

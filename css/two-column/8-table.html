@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html>  
+<head lang="en">  
+    <meta charset="UTF-8">  
+    <title>两栏布局-实现8-table</title>  
+    <style>  
+        body{  
+            margin:0;
+        }  
+        .container {
+            display: table;
+            width: 100%;
+        }
+        .main, .left, .right {
+            display: table-cell;
+            height: 100vh;
+        }
+        .left {
+            background-color: red;
+            width: 200px;
+        }
+        .main {
+            background-color: green;
+        }
+        .right {
+            background-color: blue;
+            width: 200px;
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="container">
+        <div class="left">left</div>
+        <div class="main">main</div>
+        <div class="right">right</div>
+    </div>
+</body>   
+</html> 

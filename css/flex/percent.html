@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>百分比布局</title>
+    <script type="text/javascript">
+    </script>
+    <style type="text/css">
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        height: 100%;
+      }
+      
+      .grid {
+        display: flex;
+        flex-flow: row wrap;/* flex-wrap: wrap;*/
+      }
+      .grid-cell {
+        flex: 1;
+      }
+
+      .grid-cell.u-full {
+        flex: 0 0 100%;
+      }
+
+      .grid-cell.u-1of2 {
+        flex: 0 0 50%;
+      }
+
+      .grid-cell.u-1of3 {
+        flex: 0 0 33.3333%;
+      }
+
+      .grid-cell.u-1of4 {
+        flex: 0 0 25%;
+      }
+    </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-cell u-full">100%</div>
+  </div>
+  <div class="grid">
+    <div class="grid-cell u-1of2">50%</div>
+    <div class="grid-cell u-1of2">50%</div>
+  </div>
+  <div class="grid">
+    <div class="grid-cell u-1of3">33.3%</div>
+    <div class="grid-cell u-1of3">33.3%</div>
+    <div class="grid-cell u-1of3">33.3%</div>
+  </div>
+  <div class="grid">
+    <div class="grid-cell u-1of4">25%</div>
+    <div class="grid-cell u-1of4">25%</div>
+    <div class="grid-cell u-1of4">25%</div>
+    <div class="grid-cell u-1of4">25%</div>
+    <div class="grid-cell u-1of4">25%</div>
+  </div>
+</body>
+</html>

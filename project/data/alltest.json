@@ -1,0 +1,3872 @@
+{
+    "2017-06-08": {
+        "sizecount": {
+            "user_size_count": 430705649936,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 52,
+            "active_user_count": 1425
+        },
+        "filecount": {
+            "other_count": 473503,
+            "video_count": 712444,
+            "mp3_count": 132484,
+            "pic_size": 32034952409,
+            "doc_count": 557724,
+            "other_size": 267785258819,
+            "mp3_size": 1164448796,
+            "video_size": 16650072205,
+            "doc_size": 37409201645,
+            "pic_count": 302225
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 468,
+            "sync_upload": 74,
+            "createlink": 36,
+            "download": 90,
+            "preview": 454,
+            "delete": 100
+        },
+        "usercount": {
+            "active_user_count": 1425,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-09": {
+        "sizecount": {
+            "user_size_count": 430707779495,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 62,
+            "active_user_count": 1426
+        },
+        "filecount": {
+            "other_count": 473514,
+            "video_count": 712444,
+            "mp3_count": 132483,
+            "pic_size": 32037758631,
+            "doc_count": 557807,
+            "other_size": 267843889926,
+            "mp3_size": 1152065936,
+            "video_size": 16650072205,
+            "doc_size": 37435227597,
+            "pic_count": 302227
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 340,
+            "sync_download": 4,
+            "createlink": 116,
+            "download": 78,
+            "preview": 906,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1426,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-04": {
+        "sizecount": {
+            "user_size_count": 430705376142,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 16,
+            "active_user_count": 1410
+        },
+        "filecount": {
+            "other_count": 473382,
+            "video_count": 712421,
+            "mp3_count": 132476,
+            "pic_size": 31850961948,
+            "doc_count": 557469,
+            "other_size": 268828309817,
+            "mp3_size": 1122300773,
+            "video_size": 16049532428,
+            "doc_size": 35874243925,
+            "pic_count": 300123
+        },
+        "teamcount": {
+            "active_team_count": 46
+        },
+        "fileaction": {
+            "download": 24,
+            "preview": 8,
+            "upload": 6,
+            "createlink": 6
+        },
+        "usercount": {
+            "active_user_count": 1410,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-05": {
+        "sizecount": {
+            "user_size_count": 430705376142,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 14,
+            "active_user_count": 1410
+        },
+        "filecount": {
+            "other_count": 473382,
+            "video_count": 712421,
+            "mp3_count": 132476,
+            "pic_size": 31850961948,
+            "doc_count": 557469,
+            "other_size": 268828309817,
+            "mp3_size": 1122300773,
+            "video_size": 16049532428,
+            "doc_size": 35874243925,
+            "pic_count": 300123
+        },
+        "teamcount": {
+            "active_team_count": 46
+        },
+        "fileaction": {
+            "download": 10,
+            "preview": 32,
+            "upload": 6,
+            "createlink": 4
+        },
+        "usercount": {
+            "active_user_count": 1410,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-06": {
+        "sizecount": {
+            "user_size_count": 430705376142,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 53,
+            "active_user_count": 1410
+        },
+        "filecount": {
+            "other_count": 473492,
+            "video_count": 712443,
+            "mp3_count": 132476,
+            "pic_size": 31937295204,
+            "doc_count": 557673,
+            "other_size": 267747315157,
+            "mp3_size": 1122300773,
+            "video_size": 16649661274,
+            "doc_size": 36742554912,
+            "pic_count": 302118
+        },
+        "teamcount": {
+            "active_team_count": 46
+        },
+        "fileaction": {
+            "upload": 8082,
+            "sync_download": 7574,
+            "createlink": 54,
+            "download": 94,
+            "preview": 282,
+            "delete": 118
+        },
+        "usercount": {
+            "active_user_count": 1410,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-07": {
+        "sizecount": {
+            "user_size_count": 430705649936,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 46,
+            "active_user_count": 1425
+        },
+        "filecount": {
+            "other_count": 473495,
+            "video_count": 712443,
+            "mp3_count": 132476,
+            "pic_size": 32028715975,
+            "doc_count": 557705,
+            "other_size": 267762836855,
+            "mp3_size": 1122300773,
+            "video_size": 16649661274,
+            "doc_size": 37299414243,
+            "pic_count": 302210
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 438,
+            "sync_download": 2,
+            "createlink": 48,
+            "download": 26,
+            "preview": 904,
+            "delete": 102
+        },
+        "usercount": {
+            "active_user_count": 1425,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-02": {
+        "sizecount": {
+            "user_size_count": 430574841037,
+            "group_size_count": 61992335035
+        },
+        "useractive": {
+            "user_active": 55,
+            "active_user_count": 1405
+        },
+        "filecount": {
+            "other_count": 473376,
+            "video_count": 712421,
+            "mp3_count": 132477,
+            "pic_size": 31847546464,
+            "doc_count": 557386,
+            "other_size": 268748060600,
+            "mp3_size": 1133527403,
+            "video_size": 16049532428,
+            "doc_size": 36325154583,
+            "pic_count": 300077
+        },
+        "teamcount": {
+            "active_team_count": 45
+        },
+        "fileaction": {
+            "upload": 164,
+            "sync_download": 60,
+            "sync_upload": 306,
+            "createlink": 42,
+            "download": 50,
+            "preview": 482,
+            "delete": 10
+        },
+        "usercount": {
+            "active_user_count": 1405,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-03": {
+        "sizecount": {
+            "user_size_count": 430678295606,
+            "group_size_count": 61992335035
+        },
+        "useractive": {
+            "user_active": 47,
+            "active_user_count": 1408
+        },
+        "filecount": {
+            "other_count": 473382,
+            "video_count": 712421,
+            "mp3_count": 132476,
+            "pic_size": 31850854280,
+            "doc_count": 557468,
+            "other_size": 268828309817,
+            "mp3_size": 1122300773,
+            "video_size": 16049532428,
+            "doc_size": 35873539204,
+            "pic_count": 300122
+        },
+        "teamcount": {
+            "active_team_count": 45
+        },
+        "fileaction": {
+            "upload": 258,
+            "sync_download": 16,
+            "sync_upload": 282,
+            "createlink": 22,
+            "download": 56,
+            "preview": 312,
+            "delete": 46
+        },
+        "usercount": {
+            "active_user_count": 1408,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-18": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 57,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 500955,
+            "video_count": 712603,
+            "mp3_count": 132593,
+            "pic_size": 33277331297,
+            "doc_count": 569352,
+            "other_size": 369017026564,
+            "mp3_size": 5826956580,
+            "video_size": 29289022480,
+            "doc_size": 56827943770,
+            "pic_count": 311074
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 254,
+            "sync_download": 5664,
+            "sync_upload": 286,
+            "createlink": 78,
+            "download": 170,
+            "preview": 416,
+            "delete": 11258
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-19": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867927023
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 500965,
+            "video_count": 712603,
+            "mp3_count": 132593,
+            "pic_size": 33280454410,
+            "doc_count": 569374,
+            "other_size": 369521609749,
+            "mp3_size": 5826956580,
+            "video_size": 29289022480,
+            "doc_size": 56899841675,
+            "pic_count": 311114
+        },
+        "teamcount": {
+            "active_team_count": 64
+        },
+        "fileaction": {
+            "upload": 370,
+            "sync_download": 36628,
+            "sync_upload": 902,
+            "createlink": 70,
+            "download": 210,
+            "preview": 404,
+            "delete": 98
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-30": {
+        "sizecount": {
+            "user_size_count": 518491494758,
+            "group_size_count": 89875588992
+        },
+        "useractive": {
+            "user_active": 20,
+            "active_user_count": 1476
+        },
+        "filecount": {
+            "other_count": 504689,
+            "video_count": 712618,
+            "mp3_count": 132585,
+            "pic_size": 34336199605,
+            "doc_count": 583229,
+            "other_size": 383995873000,
+            "mp3_size": 6265247976,
+            "video_size": 33133141919,
+            "doc_size": 66053437897,
+            "pic_count": 318923
+        },
+        "teamcount": {
+            "active_team_count": 69
+        },
+        "fileaction": {
+            "upload": 390,
+            "sync_download": 6,
+            "sync_upload": 4,
+            "createlink": 12,
+            "download": 92,
+            "preview": 28
+        },
+        "usercount": {
+            "active_user_count": 1476,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-31": {
+        "sizecount": {
+            "user_size_count": 518491494758,
+            "group_size_count": 89875588992
+        },
+        "useractive": {
+            "user_active": 24,
+            "active_user_count": 1476
+        },
+        "filecount": {
+            "other_count": 504692,
+            "video_count": 712619,
+            "mp3_count": 132585,
+            "pic_size": 34336199605,
+            "doc_count": 583235,
+            "other_size": 384237750454,
+            "mp3_size": 6265247976,
+            "video_size": 33134376934,
+            "doc_size": 66086984052,
+            "pic_count": 318923
+        },
+        "teamcount": {
+            "active_team_count": 69
+        },
+        "fileaction": {
+            "upload": 32,
+            "sync_upload": 2,
+            "createlink": 14,
+            "download": 80,
+            "preview": 42,
+            "delete": 8
+        },
+        "usercount": {
+            "active_user_count": 1476,
+            "disable_user_count": 23
+        }
+    },
+    "2017-06-13": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 59,
+            "active_user_count": 1427
+        },
+        "filecount": {
+            "other_count": 473983,
+            "video_count": 712468,
+            "mp3_count": 132492,
+            "pic_size": 32921474848,
+            "doc_count": 559407,
+            "other_size": 309891185814,
+            "mp3_size": 1373261841,
+            "video_size": 17200827721,
+            "doc_size": 39683289156,
+            "pic_count": 302659
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 3694,
+            "sync_download": 9520,
+            "sync_upload": 53232,
+            "createlink": 124,
+            "download": 94,
+            "preview": 740,
+            "delete": 68
+        },
+        "usercount": {
+            "active_user_count": 1427,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-12": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 16,
+            "active_user_count": 1427
+        },
+        "filecount": {
+            "other_count": 473530,
+            "video_count": 712444,
+            "mp3_count": 132483,
+            "pic_size": 32681231422,
+            "doc_count": 557859,
+            "other_size": 267948571925,
+            "mp3_size": 1152065936,
+            "video_size": 16650072205,
+            "doc_size": 37527654197,
+            "pic_count": 302470
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "download": 14,
+            "preview": 140,
+            "upload": 502,
+            "createlink": 2
+        },
+        "usercount": {
+            "active_user_count": 1427,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-11": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 19,
+            "active_user_count": 1427
+        },
+        "filecount": {
+            "other_count": 473530,
+            "video_count": 712444,
+            "mp3_count": 132483,
+            "pic_size": 32065589001,
+            "doc_count": 557859,
+            "other_size": 267948571925,
+            "mp3_size": 1152065936,
+            "video_size": 16650072205,
+            "doc_size": 37527654197,
+            "pic_count": 302284
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "download": 8,
+            "preview": 60,
+            "upload": 60,
+            "createlink": 32
+        },
+        "usercount": {
+            "active_user_count": 1427,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-10": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 57,
+            "active_user_count": 1427
+        },
+        "filecount": {
+            "other_count": 473530,
+            "video_count": 712444,
+            "mp3_count": 132483,
+            "pic_size": 32048139876,
+            "doc_count": 557853,
+            "other_size": 267948571925,
+            "mp3_size": 1152065936,
+            "video_size": 16650072205,
+            "doc_size": 37519416594,
+            "pic_count": 302262
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 404,
+            "sync_download": 36,
+            "sync_upload": 60,
+            "createlink": 50,
+            "download": 100,
+            "preview": 606,
+            "delete": 52
+        },
+        "usercount": {
+            "active_user_count": 1427,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-17": {
+        "sizecount": {
+            "user_size_count": 431789477517,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 47,
+            "active_user_count": 1434
+        },
+        "filecount": {
+            "other_count": 483658,
+            "video_count": 712511,
+            "mp3_count": 132515,
+            "pic_size": 33041806620,
+            "doc_count": 561364,
+            "other_size": 331332444736,
+            "mp3_size": 2177286963,
+            "video_size": 18049074241,
+            "doc_size": 40747065181,
+            "pic_count": 306773
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 538,
+            "sync_download": 76,
+            "sync_upload": 240,
+            "createlink": 14,
+            "download": 46,
+            "preview": 564,
+            "delete": 30
+        },
+        "usercount": {
+            "active_user_count": 1434,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-16": {
+        "sizecount": {
+            "user_size_count": 430903756323,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 52,
+            "active_user_count": 1433
+        },
+        "filecount": {
+            "other_count": 483644,
+            "video_count": 712497,
+            "mp3_count": 132512,
+            "pic_size": 33034896733,
+            "doc_count": 561327,
+            "other_size": 329153100737,
+            "mp3_size": 2103513761,
+            "video_size": 17566459835,
+            "doc_size": 40617205221,
+            "pic_count": 306772
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 514,
+            "sync_download": 104,
+            "sync_upload": 74,
+            "createlink": 78,
+            "download": 42,
+            "preview": 310,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1433,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-15": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 54,
+            "active_user_count": 1428
+        },
+        "filecount": {
+            "other_count": 483637,
+            "video_count": 712495,
+            "mp3_count": 132511,
+            "pic_size": 33032478537,
+            "doc_count": 561306,
+            "other_size": 329088833663,
+            "mp3_size": 2090967701,
+            "video_size": 17564295826,
+            "doc_size": 40570086132,
+            "pic_count": 306762
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 27874,
+            "sync_download": 120,
+            "sync_upload": 3190,
+            "createlink": 60,
+            "download": 28,
+            "preview": 468,
+            "delete": 14
+        },
+        "usercount": {
+            "active_user_count": 1428,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-06": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612315
+        },
+        "useractive": {
+            "user_active": 54,
+            "active_user_count": 1441
+        },
+        "filecount": {
+            "other_count": 493012,
+            "video_count": 712562,
+            "mp3_count": 132546,
+            "pic_size": 32715969316,
+            "doc_count": 565792,
+            "other_size": 356638615339,
+            "mp3_size": 5274199484,
+            "video_size": 22962040260,
+            "doc_size": 45037181960,
+            "pic_count": 308664
+        },
+        "teamcount": {
+            "active_team_count": 58
+        },
+        "fileaction": {
+            "upload": 446,
+            "sync_download": 9162,
+            "sync_upload": 8634,
+            "createlink": 122,
+            "download": 474,
+            "preview": 416,
+            "delete": 62
+        },
+        "usercount": {
+            "active_user_count": 1441,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-19": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 12,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 483658,
+            "video_count": 712511,
+            "mp3_count": 132515,
+            "pic_size": 33045942094,
+            "doc_count": 561370,
+            "other_size": 331332444736,
+            "mp3_size": 2177286963,
+            "video_size": 18049074241,
+            "doc_size": 40749705895,
+            "pic_count": 306775
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "download": 12,
+            "preview": 84,
+            "upload": 64,
+            "createlink": 6
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-14": {
+        "sizecount": {
+            "user_size_count": 430739817166,
+            "group_size_count": 84396086489
+        },
+        "useractive": {
+            "user_active": 45,
+            "active_user_count": 1428
+        },
+        "filecount": {
+            "other_count": 473989,
+            "video_count": 712469,
+            "mp3_count": 132507,
+            "pic_size": 32994581212,
+            "doc_count": 559458,
+            "other_size": 305025750158,
+            "mp3_size": 2090948853,
+            "video_size": 17204140611,
+            "doc_size": 39735884074,
+            "pic_count": 302969
+        },
+        "teamcount": {
+            "active_team_count": 47
+        },
+        "fileaction": {
+            "upload": 2456,
+            "sync_download": 332,
+            "sync_upload": 87938,
+            "createlink": 60,
+            "download": 86,
+            "preview": 320,
+            "delete": 44
+        },
+        "usercount": {
+            "active_user_count": 1428,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-26": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 69,
+            "active_user_count": 1513
+        },
+        "filecount": {
+            "other_count": 505710,
+            "video_count": 712796,
+            "mp3_count": 132603,
+            "pic_size": 35073309473,
+            "doc_count": 616260,
+            "other_size": 512729129827,
+            "mp3_size": 4636997847,
+            "video_size": 48993787979,
+            "doc_size": 74759339723,
+            "pic_count": 320796
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 173,
+            "sync_download": 44,
+            "sync_upload": 1331,
+            "createlink": 19,
+            "download": 322,
+            "preview": 122,
+            "delete": 2
+        },
+        "usercount": {
+            "active_user_count": 1513,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-27": {
+        "sizecount": {
+            "user_size_count": 520170723037,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 30,
+            "active_user_count": 1518
+        },
+        "filecount": {
+            "other_count": 505711,
+            "video_count": 712796,
+            "mp3_count": 132603,
+            "pic_size": 35074647947,
+            "doc_count": 616281,
+            "other_size": 512736960111,
+            "mp3_size": 4636997847,
+            "video_size": 48993787979,
+            "doc_size": 74760147498,
+            "pic_count": 320829
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 123,
+            "sync_upload": 826,
+            "createlink": 10,
+            "download": 24,
+            "preview": 89,
+            "delete": 1
+        },
+        "usercount": {
+            "active_user_count": 1518,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-20": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 25,
+            "active_user_count": 1511
+        },
+        "filecount": {
+            "other_count": 505622,
+            "video_count": 712736,
+            "mp3_count": 132590,
+            "pic_size": 34959057748,
+            "doc_count": 612284,
+            "other_size": 500305164898,
+            "mp3_size": 3790375651,
+            "video_size": 47543059799,
+            "doc_size": 73505878762,
+            "pic_count": 320544
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "download": 8,
+            "preview": 28,
+            "sync_upload": 33,
+            "upload": 30,
+            "createlink": 4
+        },
+        "usercount": {
+            "active_user_count": 1511,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-02": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 10,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492387,
+            "video_count": 712560,
+            "mp3_count": 132551,
+            "pic_size": 32667584371,
+            "doc_count": 566059,
+            "other_size": 348816381365,
+            "mp3_size": 5225628508,
+            "video_size": 22071260542,
+            "doc_size": 44468260649,
+            "pic_count": 308243
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "download": 2,
+            "preview": 22,
+            "upload": 14,
+            "createlink": 4
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-18": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 17,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 483658,
+            "video_count": 712511,
+            "mp3_count": 132515,
+            "pic_size": 33045942094,
+            "doc_count": 561366,
+            "other_size": 331332444736,
+            "mp3_size": 2177286963,
+            "video_size": 18049074241,
+            "doc_size": 40747124131,
+            "pic_count": 306775
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "download": 4,
+            "preview": 36,
+            "upload": 22
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-01": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 57,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492387,
+            "video_count": 712559,
+            "mp3_count": 132551,
+            "pic_size": 32667584371,
+            "doc_count": 566056,
+            "other_size": 348816381365,
+            "mp3_size": 5225628508,
+            "video_size": 21706073627,
+            "doc_size": 44426221778,
+            "pic_count": 308243
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "upload": 464,
+            "sync_download": 1750,
+            "sync_upload": 298,
+            "createlink": 140,
+            "download": 176,
+            "preview": 638,
+            "delete": 634
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-02": {
+        "sizecount": {
+            "user_size_count": 518534429359,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1486
+        },
+        "filecount": {
+            "other_count": 504729,
+            "video_count": 712629,
+            "mp3_count": 132585,
+            "pic_size": 34502229089,
+            "doc_count": 583315,
+            "other_size": 392228241858,
+            "mp3_size": 6265247976,
+            "video_size": 33819133740,
+            "doc_size": 66269242941,
+            "pic_count": 318964
+        },
+        "teamcount": {
+            "active_team_count": 70
+        },
+        "fileaction": {
+            "upload": 232,
+            "sync_download": 304,
+            "sync_upload": 852,
+            "createlink": 78,
+            "download": 492,
+            "preview": 356,
+            "delete": 22
+        },
+        "usercount": {
+            "active_user_count": 1486,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-03": {
+        "sizecount": {
+            "user_size_count": 518534429359,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 65,
+            "active_user_count": 1486
+        },
+        "filecount": {
+            "other_count": 506102,
+            "video_count": 712638,
+            "mp3_count": 132586,
+            "pic_size": 34513740533,
+            "doc_count": 583441,
+            "other_size": 440699996952,
+            "mp3_size": 6690338505,
+            "video_size": 34592634030,
+            "doc_size": 66568748817,
+            "pic_count": 319338
+        },
+        "teamcount": {
+            "active_team_count": 70
+        },
+        "fileaction": {
+            "upload": 3446,
+            "sync_download": 664,
+            "sync_upload": 858,
+            "createlink": 56,
+            "download": 598,
+            "preview": 546,
+            "delete": 84
+        },
+        "usercount": {
+            "active_user_count": 1486,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-01": {
+        "sizecount": {
+            "user_size_count": 518491494758,
+            "group_size_count": 89875588992
+        },
+        "useractive": {
+            "user_active": 62,
+            "active_user_count": 1476
+        },
+        "filecount": {
+            "other_count": 504717,
+            "video_count": 712621,
+            "mp3_count": 132585,
+            "pic_size": 34488341854,
+            "doc_count": 583275,
+            "other_size": 387648522037,
+            "mp3_size": 6265247976,
+            "video_size": 33772628522,
+            "doc_size": 66226310155,
+            "pic_count": 318958
+        },
+        "teamcount": {
+            "active_team_count": 69
+        },
+        "fileaction": {
+            "upload": 368,
+            "sync_download": 2432,
+            "sync_upload": 102,
+            "createlink": 58,
+            "download": 168,
+            "preview": 1442,
+            "delete": 30
+        },
+        "usercount": {
+            "active_user_count": 1476,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-06": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 13,
+            "active_user_count": 1497
+        },
+        "filecount": {
+            "other_count": 506462,
+            "video_count": 712644,
+            "mp3_count": 132586,
+            "pic_size": 34675459668,
+            "doc_count": 583459,
+            "other_size": 476688151753,
+            "mp3_size": 6690338505,
+            "video_size": 37280383956,
+            "doc_size": 67249731493,
+            "pic_count": 319381
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 96,
+            "sync_download": 20,
+            "sync_upload": 350,
+            "createlink": 14,
+            "download": 18,
+            "preview": 28,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1497,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-28": {
+        "sizecount": {
+            "user_size_count": 518443555300,
+            "group_size_count": 89875588992
+        },
+        "useractive": {
+            "user_active": 55,
+            "active_user_count": 1473
+        },
+        "filecount": {
+            "other_count": 504611,
+            "video_count": 712618,
+            "mp3_count": 132579,
+            "pic_size": 34318527135,
+            "doc_count": 582988,
+            "other_size": 383886982567,
+            "mp3_size": 5877545922,
+            "video_size": 33133141919,
+            "doc_size": 65828766625,
+            "pic_count": 318839
+        },
+        "teamcount": {
+            "active_team_count": 67
+        },
+        "fileaction": {
+            "upload": 210,
+            "sync_download": 17664,
+            "sync_upload": 2138,
+            "createlink": 108,
+            "download": 628,
+            "preview": 270,
+            "delete": 172
+        },
+        "usercount": {
+            "active_user_count": 1473,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-04": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 47,
+            "active_user_count": 1497
+        },
+        "filecount": {
+            "other_count": 506490,
+            "video_count": 712638,
+            "mp3_count": 132586,
+            "pic_size": 34515747626,
+            "doc_count": 583480,
+            "other_size": 440815369132,
+            "mp3_size": 6690338505,
+            "video_size": 34592634030,
+            "doc_size": 66622254926,
+            "pic_count": 319305
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 356,
+            "sync_download": 5790,
+            "sync_upload": 2908,
+            "createlink": 52,
+            "download": 130,
+            "preview": 616,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1497,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-05": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 48,
+            "active_user_count": 1497
+        },
+        "filecount": {
+            "other_count": 506458,
+            "video_count": 712645,
+            "mp3_count": 132586,
+            "pic_size": 34674633645,
+            "doc_count": 583445,
+            "other_size": 467098916881,
+            "mp3_size": 6690338505,
+            "video_size": 37301078896,
+            "doc_size": 67121762965,
+            "pic_count": 319358
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 300,
+            "sync_download": 2,
+            "sync_upload": 282,
+            "createlink": 54,
+            "download": 140,
+            "preview": 502,
+            "delete": 502
+        },
+        "usercount": {
+            "active_user_count": 1497,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-25": {
+        "sizecount": {
+            "user_size_count": 518442276307,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 73,
+            "active_user_count": 1468
+        },
+        "filecount": {
+            "other_count": 501874,
+            "video_count": 712610,
+            "mp3_count": 132575,
+            "pic_size": 34303153189,
+            "doc_count": 581364,
+            "other_size": 382197712436,
+            "mp3_size": 5824119101,
+            "video_size": 30689606748,
+            "doc_size": 64845115473,
+            "pic_count": 318554
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "upload": 892,
+            "sync_download": 24,
+            "sync_upload": 2508,
+            "createlink": 76,
+            "download": 1908,
+            "preview": 896,
+            "delete": 18
+        },
+        "usercount": {
+            "active_user_count": 1468,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-24": {
+        "sizecount": {
+            "user_size_count": 518442276307,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 17,
+            "active_user_count": 1468
+        },
+        "filecount": {
+            "other_count": 501516,
+            "video_count": 712612,
+            "mp3_count": 132575,
+            "pic_size": 34255028965,
+            "doc_count": 580549,
+            "other_size": 379492984725,
+            "mp3_size": 5824119101,
+            "video_size": 30542588112,
+            "doc_size": 64461661789,
+            "pic_count": 317926
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "download": 12,
+            "preview": 30,
+            "sync_upload": 8,
+            "upload": 2762,
+            "createlink": 4
+        },
+        "usercount": {
+            "active_user_count": 1468,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-27": {
+        "sizecount": {
+            "user_size_count": 518443545223,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 56,
+            "active_user_count": 1472
+        },
+        "filecount": {
+            "other_count": 504459,
+            "video_count": 712618,
+            "mp3_count": 132579,
+            "pic_size": 34307956722,
+            "doc_count": 582958,
+            "other_size": 383699832677,
+            "mp3_size": 5877545922,
+            "video_size": 33133141919,
+            "doc_size": 65781256425,
+            "pic_count": 318733
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "upload": 208,
+            "sync_download": 32994,
+            "sync_upload": 8118,
+            "createlink": 38,
+            "download": 314,
+            "preview": 576,
+            "delete": 6
+        },
+        "usercount": {
+            "active_user_count": 1472,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-26": {
+        "sizecount": {
+            "user_size_count": 518443545223,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 64,
+            "active_user_count": 1472
+        },
+        "filecount": {
+            "other_count": 501939,
+            "video_count": 712615,
+            "mp3_count": 132577,
+            "pic_size": 34306344346,
+            "doc_count": 582891,
+            "other_size": 383546001513,
+            "mp3_size": 5877537979,
+            "video_size": 33073873579,
+            "doc_size": 65739900913,
+            "pic_count": 318629
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "upload": 1326,
+            "sync_download": 23830,
+            "sync_upload": 7100,
+            "createlink": 52,
+            "download": 292,
+            "preview": 384,
+            "delete": 46
+        },
+        "usercount": {
+            "active_user_count": 1472,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-21": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 51,
+            "active_user_count": 1463
+        },
+        "filecount": {
+            "other_count": 502087,
+            "video_count": 712615,
+            "mp3_count": 132575,
+            "pic_size": 34694623293,
+            "doc_count": 570263,
+            "other_size": 382484624154,
+            "mp3_size": 5822865994,
+            "video_size": 28853827308,
+            "doc_size": 61510348023,
+            "pic_count": 317663
+        },
+        "teamcount": {
+            "active_team_count": 65
+        },
+        "fileaction": {
+            "upload": 168,
+            "sync_download": 19156,
+            "sync_upload": 7170,
+            "createlink": 22,
+            "download": 106,
+            "preview": 194,
+            "delete": 162
+        },
+        "usercount": {
+            "active_user_count": 1463,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-20": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867927023
+        },
+        "useractive": {
+            "user_active": 57,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 501942,
+            "video_count": 712606,
+            "mp3_count": 132574,
+            "pic_size": 33597706467,
+            "doc_count": 570033,
+            "other_size": 377095299383,
+            "mp3_size": 5753848814,
+            "video_size": 28882994437,
+            "doc_size": 61460020614,
+            "pic_count": 313509
+        },
+        "teamcount": {
+            "active_team_count": 64
+        },
+        "fileaction": {
+            "upload": 7528,
+            "sync_download": 11328,
+            "sync_upload": 1396,
+            "createlink": 88,
+            "download": 192,
+            "preview": 388,
+            "delete": 12
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-23": {
+        "sizecount": {
+            "user_size_count": 518432012585,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 23,
+            "active_user_count": 1467
+        },
+        "filecount": {
+            "other_count": 501512,
+            "video_count": 712611,
+            "mp3_count": 132574,
+            "pic_size": 34255028965,
+            "doc_count": 579349,
+            "other_size": 379489895221,
+            "mp3_size": 5822861931,
+            "video_size": 30529741967,
+            "doc_size": 63210670279,
+            "pic_count": 317926
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "upload": 3370,
+            "sync_download": 83654,
+            "sync_upload": 8688,
+            "createlink": 10,
+            "download": 290,
+            "preview": 324,
+            "delete": 2
+        },
+        "usercount": {
+            "active_user_count": 1467,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-22": {
+        "sizecount": {
+            "user_size_count": 518432012585,
+            "group_size_count": 89875538015
+        },
+        "useractive": {
+            "user_active": 42,
+            "active_user_count": 1467
+        },
+        "filecount": {
+            "other_count": 501507,
+            "video_count": 712611,
+            "mp3_count": 132574,
+            "pic_size": 34253847219,
+            "doc_count": 575522,
+            "other_size": 379220797327,
+            "mp3_size": 5822861931,
+            "video_size": 30529741967,
+            "doc_size": 61108220544,
+            "pic_count": 317923
+        },
+        "teamcount": {
+            "active_team_count": 66
+        },
+        "fileaction": {
+            "upload": 392,
+            "sync_download": 32852,
+            "sync_upload": 29826,
+            "createlink": 64,
+            "download": 168,
+            "preview": 406
+        },
+        "usercount": {
+            "active_user_count": 1467,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-12": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 64,
+            "active_user_count": 1635
+        },
+        "filecount": {
+            "other_count": 501960,
+            "video_count": 712803,
+            "mp3_count": 132599,
+            "pic_size": 34159400338,
+            "doc_count": 615379,
+            "other_size": 488527123814,
+            "mp3_size": 5834790534,
+            "video_size": 47792725603,
+            "doc_size": 75341385986,
+            "pic_count": 319886
+        },
+        "teamcount": {
+            "active_team_count": 76
+        },
+        "fileaction": {
+            "upload": 66,
+            "sync_upload": 6,
+            "createlink": 27,
+            "download": 60,
+            "preview": 200,
+            "delete": 13
+        },
+        "usercount": {
+            "active_user_count": 1635,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-13": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 25,
+            "active_user_count": 1635
+        },
+        "filecount": {},
+        "teamcount": {
+            "active_team_count": 76
+        },
+        "fileaction": {
+            "upload": 26,
+            "sync_upload": 343,
+            "createlink": 6,
+            "download": 16,
+            "preview": 15,
+            "delete": 3
+        },
+        "usercount": {
+            "active_user_count": 1635,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-10": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 29,
+            "active_user_count": 1635
+        },
+        "filecount": {
+            "other_count": 501954,
+            "video_count": 712803,
+            "mp3_count": 132599,
+            "pic_size": 34159641102,
+            "doc_count": 615367,
+            "other_size": 488103115109,
+            "mp3_size": 5834790534,
+            "video_size": 47792725603,
+            "doc_size": 75270390250,
+            "pic_count": 319884
+        },
+        "teamcount": {
+            "active_team_count": 76
+        },
+        "fileaction": {
+            "upload": 58,
+            "sync_upload": 143,
+            "createlink": 5,
+            "download": 11,
+            "preview": 48,
+            "delete": 8
+        },
+        "usercount": {
+            "active_user_count": 1635,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-11": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 15,
+            "active_user_count": 1635
+        },
+        "filecount": {
+            "other_count": 501954,
+            "video_count": 712803,
+            "mp3_count": 132599,
+            "pic_size": 34159641102,
+            "doc_count": 615370,
+            "other_size": 488103115109,
+            "mp3_size": 5834790534,
+            "video_size": 47792725603,
+            "doc_size": 75290069518,
+            "pic_count": 319884
+        },
+        "teamcount": {
+            "active_team_count": 76
+        },
+        "fileaction": {
+            "download": 5,
+            "preview": 10,
+            "upload": 6,
+            "createlink": 2
+        },
+        "usercount": {
+            "active_user_count": 1635,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-10": {
+        "sizecount": {
+            "user_size_count": 458770524982,
+            "group_size_count": 84588626584
+        },
+        "useractive": {
+            "user_active": 21,
+            "active_user_count": 1445
+        },
+        "filecount": {
+            "other_count": 499644,
+            "video_count": 712556,
+            "mp3_count": 132555,
+            "pic_size": 33749001134,
+            "doc_count": 565931,
+            "other_size": 359319241638,
+            "mp3_size": 5274249325,
+            "video_size": 22962039396,
+            "doc_size": 45316815824,
+            "pic_count": 310321
+        },
+        "teamcount": {
+            "active_team_count": 60
+        },
+        "fileaction": {
+            "upload": 52,
+            "sync_upload": 32,
+            "createlink": 6,
+            "download": 24,
+            "preview": 164,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1445,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-11": {
+        "sizecount": {
+            "user_size_count": 458770524982,
+            "group_size_count": 84588626584
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1445
+        },
+        "filecount": {
+            "other_count": 506883,
+            "video_count": 712601,
+            "mp3_count": 132558,
+            "pic_size": 33760897569,
+            "doc_count": 566925,
+            "other_size": 359522491538,
+            "mp3_size": 5274249757,
+            "video_size": 22985116770,
+            "doc_size": 45278185941,
+            "pic_count": 312981
+        },
+        "teamcount": {
+            "active_team_count": 60
+        },
+        "fileaction": {
+            "upload": 1068,
+            "sync_download": 194,
+            "sync_upload": 34656,
+            "createlink": 70,
+            "download": 114,
+            "preview": 744,
+            "delete": 538
+        },
+        "usercount": {
+            "active_user_count": 1445,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-12": {
+        "sizecount": {
+            "user_size_count": 458770524982,
+            "group_size_count": 84588626584
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1445
+        },
+        "filecount": {
+            "other_count": 507887,
+            "video_count": 712602,
+            "mp3_count": 132559,
+            "pic_size": 33831364385,
+            "doc_count": 567153,
+            "other_size": 361893729713,
+            "mp3_size": 5274249757,
+            "video_size": 24410864625,
+            "doc_size": 45391263742,
+            "pic_count": 314399
+        },
+        "teamcount": {
+            "active_team_count": 60
+        },
+        "fileaction": {
+            "upload": 366,
+            "sync_download": 6270,
+            "sync_upload": 5386,
+            "createlink": 108,
+            "download": 94,
+            "preview": 598,
+            "delete": 24
+        },
+        "usercount": {
+            "active_user_count": 1445,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-12": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 56,
+            "active_user_count": 1500
+        },
+        "filecount": {
+            "other_count": 504859,
+            "video_count": 712688,
+            "mp3_count": 132580,
+            "pic_size": 34805978227,
+            "doc_count": 583602,
+            "other_size": 477113990209,
+            "mp3_size": 6651596305,
+            "video_size": 42214545378,
+            "doc_size": 68364252601,
+            "pic_count": 319928
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 11892,
+            "sync_upload": 150,
+            "createlink": 107,
+            "download": 221,
+            "preview": 384,
+            "delete": 156
+        },
+        "usercount": {
+            "active_user_count": 1500,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-15": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 63,
+            "active_user_count": 1500
+        },
+        "filecount": {
+            "other_count": 505548,
+            "video_count": 712690,
+            "mp3_count": 132585,
+            "pic_size": 34816044998,
+            "doc_count": 586195,
+            "other_size": 482788550734,
+            "mp3_size": 3702854908,
+            "video_size": 42709525082,
+            "doc_size": 68919487265,
+            "pic_count": 319628
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 4651,
+            "sync_download": 1,
+            "sync_upload": 58665,
+            "createlink": 36,
+            "download": 215,
+            "preview": 253,
+            "delete": 340
+        },
+        "usercount": {
+            "active_user_count": 1500,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-15": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 48,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 513947,
+            "video_count": 712606,
+            "mp3_count": 132599,
+            "pic_size": 33844567684,
+            "doc_count": 567801,
+            "other_size": 366141124617,
+            "mp3_size": 5827143730,
+            "video_size": 29307192336,
+            "doc_size": 51751744163,
+            "pic_count": 318201
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 1536,
+            "sync_download": 11818,
+            "sync_upload": 10336,
+            "createlink": 84,
+            "download": 178,
+            "preview": 394,
+            "delete": 748
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-16": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 38,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 500900,
+            "video_count": 712606,
+            "mp3_count": 132593,
+            "pic_size": 33279169548,
+            "doc_count": 569298,
+            "other_size": 368883417633,
+            "mp3_size": 5826956580,
+            "video_size": 29307192336,
+            "doc_size": 56358898984,
+            "pic_count": 311076
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 1692,
+            "sync_download": 1828,
+            "sync_upload": 6176,
+            "createlink": 70,
+            "download": 90,
+            "preview": 608,
+            "delete": 2112
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-16": {
+        "sizecount": {
+            "user_size_count": 519406645789,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 64,
+            "active_user_count": 1506
+        },
+        "filecount": {
+            "other_count": 505245,
+            "video_count": 712690,
+            "mp3_count": 132586,
+            "pic_size": 34834054595,
+            "doc_count": 587023,
+            "other_size": 486113404644,
+            "mp3_size": 3712145070,
+            "video_size": 42709525082,
+            "doc_size": 69204953140,
+            "pic_count": 319662
+        },
+        "teamcount": {
+            "active_team_count": 72
+        },
+        "fileaction": {
+            "upload": 3727,
+            "sync_download": 7,
+            "sync_upload": 105389,
+            "createlink": 24,
+            "download": 165,
+            "preview": 182,
+            "delete": 165
+        },
+        "usercount": {
+            "active_user_count": 1506,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-19": {
+        "sizecount": {
+            "user_size_count": 520083410329,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 62,
+            "active_user_count": 1510
+        },
+        "filecount": {
+            "other_count": 505620,
+            "video_count": 712736,
+            "mp3_count": 132590,
+            "pic_size": 34957802054,
+            "doc_count": 612234,
+            "other_size": 500258005272,
+            "mp3_size": 3790375651,
+            "video_size": 47543059799,
+            "doc_size": 73377037305,
+            "pic_count": 320539
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 601,
+            "sync_download": 15,
+            "sync_upload": 80421,
+            "createlink": 56,
+            "download": 126,
+            "preview": 359,
+            "delete": 7
+        },
+        "usercount": {
+            "active_user_count": 1510,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-18": {
+        "sizecount": {
+            "user_size_count": 520083410329,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 66,
+            "active_user_count": 1510
+        },
+        "filecount": {
+            "other_count": 505609,
+            "video_count": 712736,
+            "mp3_count": 132590,
+            "pic_size": 34957765900,
+            "doc_count": 585279,
+            "other_size": 499960297200,
+            "mp3_size": 3790375651,
+            "video_size": 47543059799,
+            "doc_size": 72158328401,
+            "pic_count": 320533
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 201,
+            "sync_download": 2,
+            "sync_upload": 313,
+            "createlink": 68,
+            "download": 96,
+            "preview": 225,
+            "delete": 8
+        },
+        "usercount": {
+            "active_user_count": 1510,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-11": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 67,
+            "active_user_count": 1499
+        },
+        "filecount": {
+            "other_count": 502534,
+            "video_count": 712717,
+            "mp3_count": 132584,
+            "pic_size": 34685227518,
+            "doc_count": 583609,
+            "other_size": 485588531658,
+            "mp3_size": 6651596881,
+            "video_size": 42464743572,
+            "doc_size": 68377660657,
+            "pic_count": 319461
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 290,
+            "sync_download": 12,
+            "sync_upload": 136,
+            "createlink": 104,
+            "download": 394,
+            "preview": 610,
+            "delete": 52
+        },
+        "usercount": {
+            "active_user_count": 1499,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-10": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1499
+        },
+        "filecount": {
+            "other_count": 502519,
+            "video_count": 712699,
+            "mp3_count": 132584,
+            "pic_size": 34684070390,
+            "doc_count": 583572,
+            "other_size": 482267601584,
+            "mp3_size": 6651596881,
+            "video_size": 42542061168,
+            "doc_size": 68238571764,
+            "pic_count": 319451
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 144,
+            "sync_download": 4,
+            "sync_upload": 20,
+            "createlink": 92,
+            "download": 80,
+            "preview": 436,
+            "delete": 50
+        },
+        "usercount": {
+            "active_user_count": 1499,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-13": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 21,
+            "active_user_count": 1500
+        },
+        "filecount": {
+            "other_count": 504858,
+            "video_count": 712688,
+            "mp3_count": 132580,
+            "pic_size": 34806044872,
+            "doc_count": 583600,
+            "other_size": 477113990065,
+            "mp3_size": 6651596305,
+            "video_size": 42214545378,
+            "doc_size": 68364271361,
+            "pic_count": 319579
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 17,
+            "sync_download": 3,
+            "sync_upload": 31,
+            "createlink": 4,
+            "download": 3,
+            "preview": 435,
+            "delete": 124
+        },
+        "usercount": {
+            "active_user_count": 1500,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-24": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 51,
+            "active_user_count": 1512
+        },
+        "filecount": {
+            "other_count": 505635,
+            "video_count": 712779,
+            "mp3_count": 132598,
+            "pic_size": 34959448324,
+            "doc_count": 615966,
+            "other_size": 503041420616,
+            "mp3_size": 4528426717,
+            "video_size": 48240326245,
+            "doc_size": 74402764081,
+            "pic_count": 320554
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 229,
+            "sync_download": 107,
+            "sync_upload": 4476,
+            "createlink": 38,
+            "download": 79,
+            "preview": 127,
+            "delete": 65
+        },
+        "usercount": {
+            "active_user_count": 1512,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-13": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 54,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 514155,
+            "video_count": 712603,
+            "mp3_count": 132566,
+            "pic_size": 33868063828,
+            "doc_count": 567280,
+            "other_size": 365888756451,
+            "mp3_size": 5289405223,
+            "video_size": 24572455373,
+            "doc_size": 46317952544,
+            "pic_count": 315134
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 826,
+            "sync_download": 1790,
+            "sync_upload": 24354,
+            "createlink": 62,
+            "download": 96,
+            "preview": 438,
+            "delete": 40
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-09-09": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 43,
+            "active_user_count": 1552
+        },
+        "filecount": {
+            "other_count": 501952,
+            "video_count": 712803,
+            "mp3_count": 132599,
+            "pic_size": 34154927583,
+            "doc_count": 615361,
+            "other_size": 488096421083,
+            "mp3_size": 5834790534,
+            "video_size": 47792725603,
+            "doc_size": 75255085322,
+            "pic_count": 319841
+        },
+        "teamcount": {
+            "active_team_count": 74
+        },
+        "fileaction": {
+            "upload": 67,
+            "sync_upload": 4,
+            "createlink": 35,
+            "download": 63,
+            "preview": 92,
+            "delete": 1
+        },
+        "usercount": {
+            "active_user_count": 1552,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-08": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 63,
+            "active_user_count": 1552
+        },
+        "filecount": {
+            "other_count": 501947,
+            "video_count": 712802,
+            "mp3_count": 132599,
+            "pic_size": 34099899621,
+            "doc_count": 615355,
+            "other_size": 488083556011,
+            "mp3_size": 5834790534,
+            "video_size": 46746511532,
+            "doc_size": 75232154350,
+            "pic_count": 319808
+        },
+        "teamcount": {
+            "active_team_count": 74
+        },
+        "fileaction": {
+            "upload": 37,
+            "sync_download": 8,
+            "sync_upload": 21,
+            "createlink": 24,
+            "download": 59,
+            "preview": 78,
+            "delete": 5
+        },
+        "usercount": {
+            "active_user_count": 1552,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-05": {
+        "sizecount": {
+            "user_size_count": 520189465254,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 56,
+            "active_user_count": 1522
+        },
+        "filecount": {
+            "other_count": 501527,
+            "video_count": 712801,
+            "mp3_count": 132597,
+            "pic_size": 34084699653,
+            "doc_count": 621551,
+            "other_size": 475512382467,
+            "mp3_size": 5825834075,
+            "video_size": 46746511308,
+            "doc_size": 77623643489,
+            "pic_count": 319484
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 95,
+            "sync_upload": 599,
+            "createlink": 39,
+            "download": 85,
+            "preview": 310,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1522,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-14": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 52,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 514302,
+            "video_count": 712604,
+            "mp3_count": 132567,
+            "pic_size": 33862932797,
+            "doc_count": 567297,
+            "other_size": 365996992639,
+            "mp3_size": 5289407425,
+            "video_size": 24734046121,
+            "doc_size": 46393493656,
+            "pic_count": 315138
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 92,
+            "sync_download": 40,
+            "sync_upload": 13654,
+            "createlink": 52,
+            "download": 82,
+            "preview": 274,
+            "delete": 10
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-09-07": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 56,
+            "active_user_count": 1523
+        },
+        "filecount": {
+            "other_count": 501941,
+            "video_count": 712802,
+            "mp3_count": 132599,
+            "pic_size": 34095175723,
+            "doc_count": 615339,
+            "other_size": 488038668020,
+            "mp3_size": 5834790534,
+            "video_size": 46746511532,
+            "doc_size": 75212418882,
+            "pic_count": 319805
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 116,
+            "sync_download": 677,
+            "sync_upload": 16,
+            "createlink": 49,
+            "download": 71,
+            "preview": 204,
+            "delete": 7
+        },
+        "usercount": {
+            "active_user_count": 1523,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-06": {
+        "sizecount": {
+            "user_size_count": 520232232299,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 61,
+            "active_user_count": 1523
+        },
+        "filecount": {
+            "other_count": 501904,
+            "video_count": 712802,
+            "mp3_count": 132597,
+            "pic_size": 34094761514,
+            "doc_count": 621917,
+            "other_size": 480536058880,
+            "mp3_size": 5825834075,
+            "video_size": 46746511532,
+            "doc_size": 78087145340,
+            "pic_count": 319791
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 241,
+            "sync_download": 4,
+            "sync_upload": 904,
+            "createlink": 31,
+            "download": 212,
+            "preview": 206,
+            "delete": 7
+        },
+        "usercount": {
+            "active_user_count": 1523,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-01": {
+        "sizecount": {
+            "user_size_count": 520189465254,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 66,
+            "active_user_count": 1521
+        },
+        "filecount": {
+            "other_count": 501461,
+            "video_count": 712780,
+            "mp3_count": 132597,
+            "pic_size": 34034271757,
+            "doc_count": 620996,
+            "other_size": 467386257594,
+            "mp3_size": 5825834075,
+            "video_size": 46746506604,
+            "doc_size": 77320884062,
+            "pic_count": 319423
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 2764,
+            "sync_download": 1,
+            "sync_upload": 28168,
+            "createlink": 65,
+            "download": 90,
+            "preview": 126,
+            "delete": 98
+        },
+        "usercount": {
+            "active_user_count": 1521,
+            "disable_user_count": 23
+        }
+    },
+    "2017-09-03": {
+        "sizecount": {
+            "user_size_count": 520189465254,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 19,
+            "active_user_count": 1522
+        },
+        "filecount": {
+            "other_count": 501470,
+            "video_count": 712780,
+            "mp3_count": 132597,
+            "pic_size": 34037445954,
+            "doc_count": 621028,
+            "other_size": 475497095054,
+            "mp3_size": 5825834075,
+            "video_size": 46746506604,
+            "doc_size": 77482017883,
+            "pic_count": 319426
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "download": 3,
+            "preview": 24,
+            "upload": 20,
+            "createlink": 11,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1522,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-14": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 22,
+            "active_user_count": 1500
+        },
+        "filecount": {
+            "other_count": 504858,
+            "video_count": 712688,
+            "mp3_count": 132580,
+            "pic_size": 34806044872,
+            "doc_count": 583601,
+            "other_size": 477113990065,
+            "mp3_size": 6651596305,
+            "video_size": 42214545378,
+            "doc_size": 68364303135,
+            "pic_count": 319579
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "download": 50,
+            "preview": 53,
+            "sync_upload": 2,
+            "createlink": 1
+        },
+        "usercount": {
+            "active_user_count": 1500,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-17": {
+        "sizecount": {
+            "user_size_count": 519406645789,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 64,
+            "active_user_count": 1506
+        },
+        "filecount": {
+            "other_count": 505566,
+            "video_count": 712692,
+            "mp3_count": 132590,
+            "pic_size": 34950858337,
+            "doc_count": 591811,
+            "other_size": 492677794009,
+            "mp3_size": 3790375651,
+            "video_size": 42773216947,
+            "doc_size": 74488605473,
+            "pic_count": 320477
+        },
+        "teamcount": {
+            "active_team_count": 72
+        },
+        "fileaction": {
+            "upload": 4527,
+            "sync_upload": 36391,
+            "createlink": 26,
+            "download": 197,
+            "preview": 212,
+            "delete": 633
+        },
+        "usercount": {
+            "active_user_count": 1506,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-17": {
+        "sizecount": {
+            "user_size_count": 518425946793,
+            "group_size_count": 89867912617
+        },
+        "useractive": {
+            "user_active": 14,
+            "active_user_count": 1459
+        },
+        "filecount": {
+            "other_count": 500958,
+            "video_count": 712606,
+            "mp3_count": 132593,
+            "pic_size": 33279169548,
+            "doc_count": 569302,
+            "other_size": 369181163308,
+            "mp3_size": 5826956580,
+            "video_size": 29307192336,
+            "doc_size": 56419859333,
+            "pic_count": 311076
+        },
+        "teamcount": {
+            "active_team_count": 62
+        },
+        "fileaction": {
+            "upload": 86,
+            "sync_download": 2748,
+            "sync_upload": 1064,
+            "createlink": 12,
+            "download": 76,
+            "preview": 82,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1459,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-07": {
+        "sizecount": {
+            "user_size_count": 436880718954,
+            "group_size_count": 84588612315
+        },
+        "useractive": {
+            "user_active": 59,
+            "active_user_count": 1442
+        },
+        "filecount": {
+            "other_count": 493639,
+            "video_count": 712556,
+            "mp3_count": 132554,
+            "pic_size": 33745174500,
+            "doc_count": 565861,
+            "other_size": 355999400316,
+            "mp3_size": 5274245262,
+            "video_size": 22962039396,
+            "doc_size": 45253892754,
+            "pic_count": 310111
+        },
+        "teamcount": {
+            "active_team_count": 58
+        },
+        "fileaction": {
+            "upload": 1472,
+            "sync_download": 5610,
+            "sync_upload": 11854,
+            "createlink": 106,
+            "download": 4228,
+            "preview": 680,
+            "delete": 140
+        },
+        "usercount": {
+            "active_user_count": 1442,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-25": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 58,
+            "active_user_count": 1513
+        },
+        "filecount": {
+            "other_count": 505695,
+            "video_count": 712793,
+            "mp3_count": 132603,
+            "pic_size": 35071690581,
+            "doc_count": 616175,
+            "other_size": 505393513638,
+            "mp3_size": 4636997847,
+            "video_size": 48704406436,
+            "doc_size": 74580063372,
+            "pic_count": 320785
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 773,
+            "sync_download": 65,
+            "sync_upload": 4859,
+            "createlink": 38,
+            "download": 66,
+            "preview": 131,
+            "delete": 5
+        },
+        "usercount": {
+            "active_user_count": 1513,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-05": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612315
+        },
+        "useractive": {
+            "user_active": 53,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492809,
+            "video_count": 712562,
+            "mp3_count": 132538,
+            "pic_size": 32717592137,
+            "doc_count": 565778,
+            "other_size": 356364956697,
+            "mp3_size": 5225626636,
+            "video_size": 22962040260,
+            "doc_size": 44972977083,
+            "pic_count": 308208
+        },
+        "teamcount": {
+            "active_team_count": 57
+        },
+        "fileaction": {
+            "upload": 158,
+            "sync_download": 32,
+            "sync_upload": 36,
+            "createlink": 112,
+            "download": 180,
+            "preview": 484,
+            "delete": 62
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-04": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 60,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492879,
+            "video_count": 712562,
+            "mp3_count": 132538,
+            "pic_size": 32719092310,
+            "doc_count": 565746,
+            "other_size": 352637860186,
+            "mp3_size": 5225626636,
+            "video_size": 22962040260,
+            "doc_size": 44667528105,
+            "pic_count": 309052
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "upload": 510,
+            "sync_download": 2754,
+            "sync_upload": 6614,
+            "createlink": 54,
+            "download": 156,
+            "preview": 748,
+            "delete": 1428
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-03": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 23,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492389,
+            "video_count": 712560,
+            "mp3_count": 132551,
+            "pic_size": 32701955465,
+            "doc_count": 566071,
+            "other_size": 348820157104,
+            "mp3_size": 5225628508,
+            "video_size": 22071260542,
+            "doc_size": 44541444366,
+            "pic_count": 308260
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "download": 16,
+            "preview": 140,
+            "upload": 132,
+            "createlink": 8
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-21": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 21,
+            "active_user_count": 1511
+        },
+        "filecount": {
+            "other_count": 505622,
+            "video_count": 712736,
+            "mp3_count": 132590,
+            "pic_size": 34959057748,
+            "doc_count": 612284,
+            "other_size": 500305164898,
+            "mp3_size": 3790375651,
+            "video_size": 47543059799,
+            "doc_size": 73505878762,
+            "pic_count": 320544
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "download": 12,
+            "preview": 21
+        },
+        "usercount": {
+            "active_user_count": 1511,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-22": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 73,
+            "active_user_count": 1511
+        },
+        "filecount": {
+            "other_count": 505624,
+            "video_count": 712777,
+            "mp3_count": 132598,
+            "pic_size": 34959060263,
+            "doc_count": 612312,
+            "other_size": 502956493690,
+            "mp3_size": 4528426717,
+            "video_size": 48235816775,
+            "doc_size": 73589105733,
+            "pic_count": 320545
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 208,
+            "sync_download": 1010,
+            "sync_upload": 11,
+            "createlink": 50,
+            "download": 134,
+            "preview": 167,
+            "delete": 14
+        },
+        "usercount": {
+            "active_user_count": 1511,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-23": {
+        "sizecount": {
+            "user_size_count": 520121537295,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 61,
+            "active_user_count": 1512
+        },
+        "filecount": {
+            "other_count": 505633,
+            "video_count": 712778,
+            "mp3_count": 132598,
+            "pic_size": 34959448324,
+            "doc_count": 612442,
+            "other_size": 503035547369,
+            "mp3_size": 4528426717,
+            "video_size": 48236840842,
+            "doc_size": 73749843703,
+            "pic_count": 320554
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 99,
+            "sync_download": 60,
+            "sync_upload": 169,
+            "createlink": 23,
+            "download": 64,
+            "preview": 136,
+            "delete": 6
+        },
+        "usercount": {
+            "active_user_count": 1512,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-28": {
+        "sizecount": {
+            "user_size_count": 520170723037,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 16,
+            "active_user_count": 1518
+        },
+        "filecount": {
+            "other_count": 505713,
+            "video_count": 712796,
+            "mp3_count": 132603,
+            "pic_size": 35074647947,
+            "doc_count": 616302,
+            "other_size": 516891360247,
+            "mp3_size": 4636997847,
+            "video_size": 48993787979,
+            "doc_size": 74859221290,
+            "pic_count": 320829
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "download": 8,
+            "preview": 21,
+            "sync_upload": 1216,
+            "upload": 35,
+            "createlink": 2
+        },
+        "usercount": {
+            "active_user_count": 1518,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-29": {
+        "sizecount": {
+            "user_size_count": 520170723037,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 65,
+            "active_user_count": 1518
+        },
+        "filecount": {
+            "other_count": 502152,
+            "video_count": 712789,
+            "mp3_count": 132593,
+            "pic_size": 34196940901,
+            "doc_count": 616213,
+            "other_size": 503077855777,
+            "mp3_size": 4636944126,
+            "video_size": 46184779880,
+            "doc_size": 76115351776,
+            "pic_count": 319494
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 383,
+            "sync_download": 6,
+            "sync_upload": 1576,
+            "createlink": 17,
+            "download": 44,
+            "preview": 140,
+            "delete": 82
+        },
+        "usercount": {
+            "active_user_count": 1518,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-09": {
+        "sizecount": {
+            "user_size_count": 458770524982,
+            "group_size_count": 84588626584
+        },
+        "useractive": {
+            "user_active": 30,
+            "active_user_count": 1445
+        },
+        "filecount": {
+            "other_count": 499640,
+            "video_count": 712556,
+            "mp3_count": 132555,
+            "pic_size": 33745638401,
+            "doc_count": 565925,
+            "other_size": 359304916079,
+            "mp3_size": 5274249325,
+            "video_size": 22962039396,
+            "doc_size": 45293488320,
+            "pic_count": 310303
+        },
+        "teamcount": {
+            "active_team_count": 60
+        },
+        "fileaction": {
+            "upload": 76,
+            "sync_download": 4,
+            "sync_upload": 142,
+            "createlink": 34,
+            "download": 22,
+            "preview": 52
+        },
+        "usercount": {
+            "active_user_count": 1445,
+            "disable_user_count": 22
+        }
+    },
+    "2017-07-08": {
+        "sizecount": {
+            "user_size_count": 436880718954,
+            "group_size_count": 84588612315
+        },
+        "useractive": {
+            "user_active": 51,
+            "active_user_count": 1443
+        },
+        "filecount": {
+            "other_count": 499635,
+            "video_count": 712556,
+            "mp3_count": 132555,
+            "pic_size": 33745638401,
+            "doc_count": 565900,
+            "other_size": 359264498127,
+            "mp3_size": 5274249325,
+            "video_size": 22962039396,
+            "doc_size": 45262651241,
+            "pic_count": 310303
+        },
+        "teamcount": {
+            "active_team_count": 58
+        },
+        "fileaction": {
+            "upload": 144,
+            "sync_download": 5516,
+            "sync_upload": 15028,
+            "createlink": 36,
+            "download": 148,
+            "preview": 450,
+            "delete": 36
+        },
+        "usercount": {
+            "active_user_count": 1443,
+            "disable_user_count": 22
+        }
+    },
+    "2017-08-31": {
+        "sizecount": {
+            "user_size_count": 520172547115,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 63,
+            "active_user_count": 1520
+        },
+        "filecount": {
+            "other_count": 501450,
+            "video_count": 712780,
+            "mp3_count": 132591,
+            "pic_size": 34030968081,
+            "doc_count": 621258,
+            "other_size": 466915360117,
+            "mp3_size": 5760682609,
+            "video_size": 46746506604,
+            "doc_size": 76636422875,
+            "pic_count": 319418
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 1692,
+            "sync_download": 4,
+            "sync_upload": 22640,
+            "createlink": 38,
+            "download": 198,
+            "preview": 176,
+            "delete": 133
+        },
+        "usercount": {
+            "active_user_count": 1520,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-30": {
+        "sizecount": {
+            "user_size_count": 520170723037,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 50,
+            "active_user_count": 1519
+        },
+        "filecount": {
+            "other_count": 502156,
+            "video_count": 712790,
+            "mp3_count": 132595,
+            "pic_size": 34197406359,
+            "doc_count": 616344,
+            "other_size": 503171757862,
+            "mp3_size": 4741973860,
+            "video_size": 46293566795,
+            "doc_size": 76224515726,
+            "pic_count": 319503
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 153,
+            "sync_download": 1,
+            "sync_upload": 726,
+            "createlink": 24,
+            "download": 198,
+            "preview": 111,
+            "delete": 10
+        },
+        "usercount": {
+            "active_user_count": 1519,
+            "disable_user_count": 23
+        }
+    },
+    "2017-07-29": {
+        "sizecount": {
+            "user_size_count": 518490577599,
+            "group_size_count": 89875588992
+        },
+        "useractive": {
+            "user_active": 55,
+            "active_user_count": 1475
+        },
+        "filecount": {
+            "other_count": 504684,
+            "video_count": 712618,
+            "mp3_count": 132585,
+            "pic_size": 34336132362,
+            "doc_count": 583220,
+            "other_size": 383955888620,
+            "mp3_size": 6265247976,
+            "video_size": 33133141919,
+            "doc_size": 66044317947,
+            "pic_count": 318922
+        },
+        "teamcount": {
+            "active_team_count": 67
+        },
+        "fileaction": {
+            "upload": 356,
+            "sync_download": 20076,
+            "sync_upload": 4002,
+            "createlink": 48,
+            "download": 168,
+            "preview": 546,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1475,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-07": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 22,
+            "active_user_count": 1497
+        },
+        "filecount": {
+            "other_count": 506464,
+            "video_count": 712644,
+            "mp3_count": 132586,
+            "pic_size": 34676351862,
+            "doc_count": 583486,
+            "other_size": 476744451321,
+            "mp3_size": 6690338505,
+            "video_size": 37280383956,
+            "doc_size": 67312482707,
+            "pic_count": 319394
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "download": 20,
+            "preview": 28,
+            "sync_upload": 2,
+            "upload": 146,
+            "createlink": 20
+        },
+        "usercount": {
+            "active_user_count": 1497,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-09": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 57,
+            "active_user_count": 1498
+        },
+        "filecount": {
+            "other_count": 502512,
+            "video_count": 712699,
+            "mp3_count": 132585,
+            "pic_size": 34680073210,
+            "doc_count": 583558,
+            "other_size": 481378812636,
+            "mp3_size": 6663629066,
+            "video_size": 42542061168,
+            "doc_size": 68030241420,
+            "pic_count": 319454
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 82,
+            "sync_download": 84,
+            "sync_upload": 40,
+            "createlink": 28,
+            "download": 74,
+            "preview": 406,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1498,
+            "disable_user_count": 23
+        }
+    },
+    "2017-08-08": {
+        "sizecount": {
+            "user_size_count": 518534457185,
+            "group_size_count": 89901194616
+        },
+        "useractive": {
+            "user_active": 65,
+            "active_user_count": 1497
+        },
+        "filecount": {
+            "other_count": 502499,
+            "video_count": 712699,
+            "mp3_count": 132586,
+            "pic_size": 34681269470,
+            "doc_count": 583546,
+            "other_size": 481338542340,
+            "mp3_size": 6690338505,
+            "video_size": 42542061168,
+            "doc_size": 68006081033,
+            "pic_count": 319454
+        },
+        "teamcount": {
+            "active_team_count": 71
+        },
+        "fileaction": {
+            "upload": 470,
+            "sync_download": 2164,
+            "sync_upload": 640,
+            "createlink": 68,
+            "download": 198,
+            "preview": 436,
+            "delete": 8048
+        },
+        "usercount": {
+            "active_user_count": 1497,
+            "disable_user_count": 23
+        }
+    },
+    "2017-06-28": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 53,
+            "active_user_count": 1437
+        },
+        "filecount": {
+            "other_count": 501439,
+            "video_count": 712567,
+            "mp3_count": 132561,
+            "pic_size": 34257306490,
+            "doc_count": 566334,
+            "other_size": 352120928906,
+            "mp3_size": 5225682229,
+            "video_size": 22744240994,
+            "doc_size": 43866125448,
+            "pic_count": 310755
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "upload": 4890,
+            "sync_download": 152,
+            "sync_upload": 29908,
+            "createlink": 96,
+            "download": 122,
+            "preview": 718,
+            "delete": 70
+        },
+        "usercount": {
+            "active_user_count": 1437,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-29": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 54,
+            "active_user_count": 1439
+        },
+        "filecount": {
+            "other_count": 501460,
+            "video_count": 712567,
+            "mp3_count": 132561,
+            "pic_size": 34353511973,
+            "doc_count": 566346,
+            "other_size": 352138692436,
+            "mp3_size": 5225682229,
+            "video_size": 22744240994,
+            "doc_size": 43883361597,
+            "pic_count": 310788
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "upload": 414,
+            "sync_download": 1686,
+            "sync_upload": 14376,
+            "createlink": 126,
+            "download": 306,
+            "preview": 370,
+            "delete": 56
+        },
+        "usercount": {
+            "active_user_count": 1439,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-22": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 50,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 484624,
+            "video_count": 712513,
+            "mp3_count": 132534,
+            "pic_size": 33209716536,
+            "doc_count": 561694,
+            "other_size": 344963409256,
+            "mp3_size": 4732230486,
+            "video_size": 19002448155,
+            "doc_size": 42119719771,
+            "pic_count": 308143
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 494,
+            "sync_download": 134,
+            "sync_upload": 714,
+            "createlink": 88,
+            "download": 234,
+            "preview": 224,
+            "delete": 10
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-23": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 41,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 484790,
+            "video_count": 712513,
+            "mp3_count": 132534,
+            "pic_size": 33968809463,
+            "doc_count": 561734,
+            "other_size": 345080258485,
+            "mp3_size": 4732230486,
+            "video_size": 18946314923,
+            "doc_size": 42336168019,
+            "pic_count": 308405
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 1142,
+            "sync_download": 302,
+            "sync_upload": 1704,
+            "createlink": 40,
+            "download": 320,
+            "preview": 400,
+            "delete": 32
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-20": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 62,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 483953,
+            "video_count": 712512,
+            "mp3_count": 132528,
+            "pic_size": 33200842400,
+            "doc_count": 561437,
+            "other_size": 335518485677,
+            "mp3_size": 5225617541,
+            "video_size": 18473357283,
+            "doc_size": 41053978829,
+            "pic_count": 307089
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 724,
+            "sync_download": 54,
+            "sync_upload": 1476,
+            "createlink": 72,
+            "download": 62,
+            "preview": 496
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-21": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 40,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 484619,
+            "video_count": 712512,
+            "mp3_count": 132534,
+            "pic_size": 33209716536,
+            "doc_count": 561658,
+            "other_size": 337205601772,
+            "mp3_size": 4732230486,
+            "video_size": 18473357283,
+            "doc_size": 41890679967,
+            "pic_count": 308143
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 830,
+            "sync_download": 50,
+            "sync_upload": 3812,
+            "createlink": 34,
+            "download": 392,
+            "preview": 876,
+            "delete": 4
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-26": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 15,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 487332,
+            "video_count": 712515,
+            "mp3_count": 132536,
+            "pic_size": 34017708863,
+            "doc_count": 562236,
+            "other_size": 347147515794,
+            "mp3_size": 4732238429,
+            "video_size": 19865053711,
+            "doc_size": 43455475707,
+            "pic_count": 308521
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "download": 2,
+            "preview": 18,
+            "sync_upload": 300,
+            "upload": 610,
+            "createlink": 6
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-27": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 64,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 494829,
+            "video_count": 712566,
+            "mp3_count": 132561,
+            "pic_size": 34035858484,
+            "doc_count": 566101,
+            "other_size": 351736531301,
+            "mp3_size": 5225682229,
+            "video_size": 22249785248,
+            "doc_size": 43522255923,
+            "pic_count": 309460
+        },
+        "teamcount": {
+            "active_team_count": 55
+        },
+        "fileaction": {
+            "upload": 226,
+            "sync_download": 16756,
+            "sync_upload": 24712,
+            "createlink": 42,
+            "download": 182,
+            "preview": 546,
+            "delete": 12
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-24": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 52,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 487312,
+            "video_count": 712515,
+            "mp3_count": 132536,
+            "pic_size": 34002015823,
+            "doc_count": 561816,
+            "other_size": 346540123449,
+            "mp3_size": 4732238429,
+            "video_size": 19865053711,
+            "doc_size": 42443028997,
+            "pic_count": 308484
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 186,
+            "sync_download": 1554,
+            "sync_upload": 5674,
+            "createlink": 72,
+            "download": 272,
+            "preview": 424,
+            "delete": 26
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-06-25": {
+        "sizecount": {
+            "user_size_count": 431802680273,
+            "group_size_count": 84407475736
+        },
+        "useractive": {
+            "user_active": 15,
+            "active_user_count": 1436
+        },
+        "filecount": {
+            "other_count": 487313,
+            "video_count": 712515,
+            "mp3_count": 132536,
+            "pic_size": 34002015823,
+            "doc_count": 561843,
+            "other_size": 346541751401,
+            "mp3_size": 4732238429,
+            "video_size": 19865053711,
+            "doc_size": 42444178412,
+            "pic_count": 308484
+        },
+        "teamcount": {
+            "active_team_count": 54
+        },
+        "fileaction": {
+            "upload": 146,
+            "sync_download": 10,
+            "sync_upload": 2,
+            "createlink": 8,
+            "download": 4,
+            "preview": 30,
+            "delete": 16
+        },
+        "usercount": {
+            "active_user_count": 1436,
+            "disable_user_count": 22
+        }
+    },
+    "2017-09-04": {
+        "sizecount": {
+            "user_size_count": 520189465254,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 15,
+            "active_user_count": 1522
+        },
+        "filecount": {
+            "other_count": 501471,
+            "video_count": 712780,
+            "mp3_count": 132597,
+            "pic_size": 34037445954,
+            "doc_count": 621028,
+            "other_size": 475497100803,
+            "mp3_size": 5825834075,
+            "video_size": 46746506604,
+            "doc_size": 77482017883,
+            "pic_count": 319426
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "download": 2,
+            "preview": 14,
+            "upload": 3
+        },
+        "usercount": {
+            "active_user_count": 1522,
+            "disable_user_count": 23
+        }
+    },
+    "2017-06-30": {
+        "sizecount": {
+            "user_size_count": 436829244244,
+            "group_size_count": 84588612027
+        },
+        "useractive": {
+            "user_active": 51,
+            "active_user_count": 1440
+        },
+        "filecount": {
+            "other_count": 492438,
+            "video_count": 712567,
+            "mp3_count": 132551,
+            "pic_size": 34313878409,
+            "doc_count": 566286,
+            "other_size": 348521743436,
+            "mp3_size": 5225628508,
+            "video_size": 23233156903,
+            "doc_size": 44199310769,
+            "pic_count": 309253
+        },
+        "teamcount": {
+            "active_team_count": 56
+        },
+        "fileaction": {
+            "upload": 4164,
+            "sync_download": 416,
+            "sync_upload": 9036,
+            "createlink": 130,
+            "download": 80,
+            "preview": 716,
+            "delete": 96
+        },
+        "usercount": {
+            "active_user_count": 1440,
+            "disable_user_count": 22
+        }
+    },
+    "2017-09-02": {
+        "sizecount": {
+            "user_size_count": 520189465254,
+            "group_size_count": 89964886481
+        },
+        "useractive": {
+            "user_active": 45,
+            "active_user_count": 1521
+        },
+        "filecount": {
+            "other_count": 501466,
+            "video_count": 712780,
+            "mp3_count": 132597,
+            "pic_size": 34037444367,
+            "doc_count": 621025,
+            "other_size": 475150961445,
+            "mp3_size": 5825834075,
+            "video_size": 46746506604,
+            "doc_size": 77480570538,
+            "pic_count": 319426
+        },
+        "teamcount": {
+            "active_team_count": 73
+        },
+        "fileaction": {
+            "upload": 247,
+            "sync_upload": 724,
+            "createlink": 35,
+            "download": 46,
+            "preview": 25,
+            "delete": 3
+        },
+        "usercount": {
+            "active_user_count": 1521,
+            "disable_user_count": 23
+        }
+    }
+}

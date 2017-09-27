@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    </head>
+    <body>
+        <fieldset>
+            <form role="form" class="form-horizontal" id="venderFormId" method="post" enctype="multipart/form-data">
+               
+                <div class="form-group">
+                	<label  for="venderId" class="col-sm-2 control-label required-label">商家Id:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="venderId" name="venderId" placeholder="请输入商家Id" onkeyup="this.value=this.value.replace(/\D/g,'')"/>
+                    </div>
+                    
+                    <label  for="venderName" class="col-sm-2 control-label required-label">商家名称:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="venderName" name="venderName" placeholder="请输入商家名称"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label  for="senderName" class="col-sm-2 control-label required-label">发货人姓名:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="senderName" name="senderName" placeholder="请输入发货人姓名"/>
+                    </div>
+                    <label  for="venderUnitCreditCode" class="col-sm-2 control-label required-label">公司统一社会信用代码:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="venderUnitCreditCode" name="venderUnitCreditCode" placeholder="请输入公司统一社会信用代码"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                	<label  for="senderTel" class="col-sm-2 control-label">寄件人电话:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="senderTel" name="senderTel" placeholder="请输入寄件人电话"/>
+                    </div>
+                    
+                    <label  for="senderMobile" class="col-sm-2 control-label required-label">寄件人手机号:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="senderMobile" name="senderMobile" placeholder="请输入寄件人手机号"/>
+                    </div>
+                </div>
+                
+        		<div class="form-group">
+                	<label  for="bpin" class="col-sm-2 control-label required-label">登陆账号:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="bpin" name="bpin" placeholder="请输入登陆账号"/>
+                    </div>
+                    
+                    <label  for="jincaiAccount" class="col-sm-2 control-label required-label">金采账号:</label>
+                	<div class="col-sm-4">
+                    	<input type="text" class="form-control" id="jincaiAccount" name="jincaiAccount" placeholder="请输入金采账号"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                	<label  for="yn" class="col-sm-2 control-label required-label">状态:</label>
+                	<div class="col-sm-4">
+                    	<select class="selectpicker" id="yn" name="yn">
+        				  <option value=1>生效</option>
+        		    	  <option value=0>失效</option>
+        				</select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label  for="senderAddress" class="col-sm-2 control-label required-label">发货地址:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="senderAddress" name="senderAddress" placeholder="请输入发货地址"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label  for="venderForthAddr" class="col-sm-2 control-label required-label">商家详细地址:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="venderForthAddr" name="venderForthAddr" placeholder="请输入商家详细地址"/>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label  for="returnAddr" class="col-sm-2 control-label required-label">退货地址:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="returnAddr" name="returnAddr" placeholder="请输入退货地址"/>
+                    </div>
+                </div>
+                
+                <input type="hidden" id="id" name="id"/>
+                <input type="hidden" id="opstate" name="opstate"/>
+            </form>
+            <center>
+                 <button type="button" class="btn btn-default" onclick="closeVenderDialog()">取消</button>
+                 <button type="submit" class="btn btn-primary" id="addVenderBtn">提交</button>
+            </center>
+         </fieldset>
+         <style>
+             .required-label:before {
+                content: '*';
+                color: #F24F44;
+                padding-right: 5px;
+             }
+         </style>
+         <script>
+            function validate() {
+                var flag = true;
+                var msg = '';
+                for (var i = 0; i < $('.required-label').next().length; i++) {
+                    var label = $('.required-label')[i].innerHTML.replace(':', '');
+                    var outer = $('.required-label').next()[i];
+                    var inner = $(outer).children();
+                    var val = inner.val();
+                    var name = inner.attr('name');
+                    if (!val) {
+                        flag = false;
+                        msg = '请输入' + label;
+                        break;
+                    } else if (val.length > 100) {
+                        flag = false;
+                        msg = label + '请少于100字';
+                        break;
+                    } else if (name == 'senderMobile' && !/0?(13|14|15|18)[0-9]{9}/.test(val)) { // 寄件人手机号
+                        flag = false;
+                        msg = '请输入正确的' + label;
+                        break;
+                    }
+                }
+                if (!flag) {
+                    alert(msg);
+                    return false;
+                }
+                return true;
+            }
+            $("#addVenderBtn").on("click",function(){
+                var v = validate();
+                if (v) {
+                    var data = $("#venderFormId").serialize();
+                }
+            });
+         </script>
+    </body>
+</html>

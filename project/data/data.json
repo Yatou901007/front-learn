@@ -1,0 +1,38 @@
+{
+    "useractive": {
+        "user_active": 64
+    },
+    "usersize": {
+        "user_size_count": 520236124298
+    },
+    "teamsize": {
+        "group_size_count": 89900399707
+    },
+    "fileaction": {
+        "upload": 66,
+        "sync_upload": 6,
+        "createlink": 27,
+        "download": 60,
+        "preview": 200,
+        "delete": 13
+    },
+    "teamcount": {
+        "active_team_count": 76
+    },
+    "filecount": {
+        "other_count": 501960,
+        "video_count": 712803,
+        "mp3_count": 132599,
+        "pic_size": 34159400338,
+        "doc_count": 615379,
+        "other_size": 488527123814,
+        "mp3_size": 5834790534,
+        "video_size": 47792725603,
+        "doc_size": 75341385986,
+        "pic_count": 319886
+    },
+    "usercount": {
+        "active_user_count": 1635,
+        "disable_user_count": 23
+    }
+}

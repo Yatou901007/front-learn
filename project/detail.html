@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/echarts.min.js"></script>
+</head>
+<style>
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    html, body {
+        margin: 0;
+    }
+    body {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    .echart {
+        width: 100%;
+        height:400px; 
+        margin-bottom: 50px;
+    }
+</style>
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" class="echart"></div>
+    <script type="text/javascript">
+        var CONST_TYPE = {
+            'usercount': 'pie',
+            'useractive': 'pie',
+            'sizecount': 'bar',
+            'filecount': 'bar',
+            'fileaction': 'bar'
+        };
+        function pieChart(title, subtitle, names, values){
+            var datas = [];
+            for(var i = 0; i < names.length; i++ ){
+                datas.push({
+                    value: values[i],
+                    name: names[i]
+                });
+            }
+            var option = {
+                title : {
+                    text: title,
+                    subtext: subtitle,
+                    x:'center'
+                },
+                tooltip : {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+                legend: {
+                    orient: 'vertical',
+                    left: '60%',
+                    data: names
+                },
+                series : [
+                    {
+                        // name: '访问来源',
+                        type: 'pie',
+                        radius : '55%',
+                        center: ['50%', '60%'],
+                        data: datas,
+                        itemStyle: {
+                            emphasis: {
+                                shadowBlur: 10,
+                                shadowOffsetX: 0,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        }
+                    }
+                ]
+            };
+            return option;
+        }
+        function barChart(title, subtitle, names, values){
+            var option = {
+                title : {
+                    text: title,
+                    subtext: subtitle,
+                    x:'center'
+                },
+                tooltip: {},
+                legend: {
+                    orient: 'vertical',
+                    left: '60%',
+                    // data:['销量']
+                },
+                xAxis: {
+                    data: names
+                },
+                yAxis: {},
+                series: [{
+                    // name: '销量',
+                    type: 'bar',
+                    data: values
+                }]
+            };
+            return option;
+        }
+        function GetQueryString(name){
+             var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+             var r = window.location.search.substr(1).match(reg);
+             if(r!=null)return  unescape(r[2]); return null;
+        }
+
+
+        var alldata = JSON.parse(localStorage.getItem('alldata'));
+        var CONST = JSON.parse(localStorage.getItem('CONST'));
+        var time = GetQueryString('time'), table = GetQueryString('table');
+        var data = alldata[time][table];
+        console.log(data);
+        var names = [], values = [];
+        for (var name in data) {
+            names.push(CONST[name]);
+            values.push(data[name]);
+        }
+        var option;
+        if (CONST_TYPE[table] == 'pie') {
+            option = pieChart(CONST[table], time, names, values);
+        } else {
+            option = barChart(CONST[table], time, names, values);
+        }
+        var myChart = echarts.init(document.getElementById('main'));
+        myChart.setOption(option);
+
+        
+    </script>
+</body>
+</html>
